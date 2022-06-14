@@ -1,0 +1,18 @@
+# Created by trellis-cli v1.7.0
+# Documentation: https://docs.roots.io/trellis/master/wordpress-sites/
+
+wordpress_sites:
+  pros90amapa.org.br:
+    site_hosts:
+    - canonical: pros90amapa.test
+      redirects:
+      - www.pros90amapa.test
+    local_path: ../site
+    admin_email: admin@pros90amapa.test
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false
