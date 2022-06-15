@@ -40,7 +40,20 @@
     "roots/wordpress": "6.0",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
+    "wpackagist-plugin/contact-form-7":">=5.5.6",
+    "wpackagist-plugin/wp-mail-smtp":">=3.4.0",
+    "wpackagist-plugin/wd-instagram-feed":">=1.4.34",
+    "wpackagist-plugin/loco-translate":">=2.3.3",
+    "wpackagist-plugin/automatic-translator-addon-for-loco-translate":">=2.1.1",
+    "wpackagist-plugin/wps-hide-login":">=1.9.4",
+    "wpackagist-plugin/regenerate-thumbnails":">=3.1.5",
+    "wpackagist-plugin/autodescription":">=4.2.4",
+    "wpackagist-plugin/social-pug":">=1.20.1",
     "wpackagist-theme/twentytwentytwo": "^1.2",
+    "wpackagist-plugin/photo-gallery":">=1.6.5",
+    "wpackagist-plugin/mobile-menu":">=2.8.1.8",
+    "wpackagist-plugin/redirection":">=5.2.3",
+    "wpackagist-plugin/flexy-breadcrumb":">=1.2.1",
     "roots/acorn": "^2.0"
   },
   "require-dev": {
@@ -69,7 +82,7 @@
     "post-root-package-install": [
       "php -r \"copy('.env.example', '.env');\""
     ],
-        "post-autoload-dump": [
+    "post-autoload-dump": [
       "Roots\\Acorn\\ComposerScripts::postAutoloadDump"
     ],
     "test": [
