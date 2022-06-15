@@ -4,12 +4,12 @@
 wordpress_sites:
   pros90amapa.org.br:
     site_hosts:
-    - canonical: pros90amapa.org.br
+    - canonical: staging.pros90amapa.org.br
       redirects:
-      - www.pros90amapa.org.br
+      - www.staging.pros90amapa.org.br
     local_path: ../site
     branch: master
-    repo: git@github.com:example/example.com.git
+    repo: git@github.com:dsemblano/pros90amapa.org.br.git
     repo_subtree_path: site
     multisite:
       enabled: false
