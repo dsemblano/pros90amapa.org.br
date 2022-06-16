@@ -1,39 +1,55 @@
 @if (! post_password_required())
-  <section id="comments" class="comments">
-    @if (have_comments())
-      <h2>
-        {!! /* translators: %1$s is replaced with the number of comments and %2$s with the post title */ sprintf(_nx('%1$s response to &ldquo;%2$s&rdquo;', '%1$s responses to &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'sage'), get_comments_number() === 1 ? _x('One', 'comments title', 'sage') : number_format_i18n(get_comments_number()), '<span>' . get_the_title() . '</span>') !!}
-      </h2>
+<section id="comments" class="comments">
+  @if (have_comments())
+  <h2>
+    {!! sprintf(_nx('One response to &ldquo;%2$s&rdquo;', '%1$s responses to &ldquo;%2$s&rdquo;', get_comments_number(),
+    'comments title', 'sage'), number_format_i18n(get_comments_number()), '<span>' . get_the_title() . '</span>') !!}
+  </h2>
 
-      <ol class="comment-list">
-        {!! wp_list_comments(['style' => 'ol', 'short_ping' => true]) !!}
-      </ol>
+  <ol class="comment-list">
+    {!! wp_list_comments(['style' => 'ol', 'short_ping' => true]) !!}
+  </ol>
 
-      @if (get_comment_pages_count() > 1 && get_option('page_comments'))
-        <nav>
-          <ul class="pager">
-            @if (get_previous_comments_link())
-              <li class="previous">
-                {!! get_previous_comments_link(__('&larr; Older comments', 'sage')) !!}
-              </li>
-            @endif
-
-            @if (get_next_comments_link())
-              <li class="next">
-                {!! get_next_comments_link(__('Newer comments &rarr;', 'sage')) !!}
-              </li>
-            @endif
-          </ul>
-        </nav>
+  @if (get_comment_pages_count() > 1 && get_option('page_comments'))
+  <nav>
+    <ul class="pager">
+      @if (get_previous_comments_link())
+      <li class="previous">
+        {!! get_previous_comments_link(__('&larr; Older comments', 'sage')) !!}
+      </li>
       @endif
-    @endif
 
-    @if (! comments_open() && get_comments_number() != '0' && post_type_supports(get_post_type(), 'comments'))
-      <x-alert type="warning">
-        {!! __('Comments are closed.', 'sage') !!}
-      </x-alert>
-    @endif
+      @if (get_next_comments_link())
+      <li class="next">
+        {!! get_next_comments_link(__('Newer comments &rarr;', 'sage')) !!}
+      </li>
+      @endif
+    </ul>
+  </nav>
+  @endif
+  @endif
 
-    @php(comment_form())
-  </section>
+  @if (! comments_open() && get_comments_number() != '0' && post_type_supports(get_post_type(), 'comments'))
+  <x-alert type="warning">
+    {!! __('Comments are closed.', 'sage') !!}
+  </x-alert>
+  @endif
+
+  <?php
+    $comments_args = array(
+    // change the title of send button 
+    'label_submit'=>'Enviar',
+    // change the title of the reply section
+    'title_reply'=>'Comentários',
+    // class submit
+    'class_submit' => 'btn',
+    // remove "Text or HTML to be displayed after the set of comment fields"
+    'comment_notes_after' => '',
+    // redefine your own textarea (the comment body)
+    //'comment_field' => '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><br /><textarea id="comment" name="comment" aria-required="true"></textarea></p>',
+    );
+  ?>
+
+  @php(comment_form($comments_args))
+</section>
 @endif
