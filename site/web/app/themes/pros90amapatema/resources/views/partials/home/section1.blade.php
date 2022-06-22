@@ -11,8 +11,6 @@
         @include('partials/snippets.fblikeshare')
       </div>
         @include('partials/snippets.facebook')
-      {{-- <h2>Entre em contato</h2>
-      @php(dynamic_sidebar('textos-primary')) --}}
     </div>
 
   </div>
@@ -23,5 +21,16 @@
   <div class="social block lg:hidden text-center w-full fill-pros90blue">
       @include('partials/snippets.socialicons')
       @include('partials/snippets.facebook')
+      <?php $the_query = new WP_Query( array( 'posts_per_page' => 5, 'offset' => 3 ) ); ?>       
+      
+      @if ( $the_query->have_posts() )
+      <article @php(post_class('article-posts xl:w-1/3 md:w-1/2 p-4'))>
+        @while(have_posts()) @php(the_post())
+          @php $the_query->the_post() @endphp 
+          @php echo '<a href=' . get_the_permalink() . '><li>' . get_the_title() . '</li>' @endphp 
+        @endwhile
+      </article>
+
+      @php  wp_reset_postdata() @endphp 
   </div>
 </section>

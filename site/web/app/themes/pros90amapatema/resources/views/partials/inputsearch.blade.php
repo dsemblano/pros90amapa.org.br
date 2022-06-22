@@ -9,7 +9,7 @@
 <form role="search" method="get" class="search-form" action="{{ home_url('/') }}">
     <label>
         <span class="sr-only">
-        {{ _x('Search for:', 'label', 'sage') }}
+        {{ _x('Busca por:', 'label', 'sage') }}
         </span>
     
         <input

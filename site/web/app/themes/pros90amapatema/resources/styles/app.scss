@@ -4,177 +4,250 @@
 
 // Mixins
 %imgeffect {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: 0.3s ease-in-out;
-    transition: 0.2s ease-in-out;
+  -webkit-transform:scale(1);
+  transform:scale(1);
+  -webkit-transition:0.3s ease-in-out;
+  transition:0.2s ease-in-out;
+}
+
+%hoverimgeffect {
+  -webkit-transform:scale(1.1);
+  transform:scale(1.1);
+}
+
+%formEffect {
+  background: #effaff;
+  font-size: 1em;
+  border: 1px solid #d2dfe4;
+  transition: box-shadow .3s ease-in-out, color .3s ease-in-out;
+  background-position: right 1.35em center;
+  background-size: 0.25em 0.25em;
+  background-repeat: no-repeat;
+  margin-bottom: 5px;
+  border-radius: 11px;
+  padding: 0.9em 2em 0.7em 1.1rem;
+  display: block;
+  width: 100%;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 20%);
+
+  &:active,
+  &:focus,
+  &:hover {
+    box-shadow: inset 0 0 1px 0 rgb(0 0 0 / 20%), 0 5px 27px -5px rgb(50 50 93 / 25%), 0 8px 10px -8px rgb(0 0 0 / 30%), 0 -6px 16px -6px rgb(0 0 0 / 3%);
+    outline: 0 !important;
   }
-  
-  %hoverimgeffect {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
+}
 
 // Menu
-header nav {
+.banner {
+  box-shadow:0 0 21px 0 rgb(0 0 0 / 30%);
+
+  nav {
     ul {
-        @apply lg:flex justify-end flex-1 items-center;
+      @apply lg:flex justify-end flex-1 items-center;
 
-        li {
-            @apply mr-3;
+      li {
+        @apply mr-3;
 
-            a {
-                @apply inline-block py-2 px-4 text-black font-bold no-underline;
-            }
+        a {
+          @apply inline-block py-2 px-4 text-black font-bold no-underline;
         }
+      }
     }
+  }
 }
 
 .menu-menu-principal-container {
   ul {
-    background-color: white;
+    background-color:white;
+
     .has-children {
-      color: red;
+      color:red;
       cursor:pointer;
+
       &.open {
         .submenu {
           display:block;
         }
       }
-    ul {
-      background-color: inherit;
-      display: none;
-      position: absolute;
-      top: 2em;
-      left: 0;
-      z-index: 99999;
-      visibility: hidden;
-      opacity: 0;
-      min-width: 5rem;
-      // transition: all 0.5s ease;
-      // margin-top: 1rem;
-      // width: 180px;
-      // box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+
+      ul {
+        background-color:inherit;
+        display:none;
+        position:absolute;
+        top:2em;
+        left:0;
+        z-index:99999;
+        visibility:hidden;
+        opacity:0;
+        min-width:5rem;
+        // transition:all 0.5s ease;
+        // margin-top:1rem;
+        // width:180px;
+        // box-shadow:0 3px 3px rgba(0, 0, 0, 0.2);
+      }
+
+      li>a:not(:last-child)::after {
+        content:" ▾";
+      }
+
+      li:hover>ul,
+      li:focus-within>ul,
+      li ul:hover,
+      li ul:focus {
+        box-shadow:0px 11px 14px -12px rgba(0, 0, 0, 0.75);
+        display:block;
+        visibility:visible;
+        opacity:1;
+        background-color:inherit;
+      }
     }
- 
-    li > a:not(:last-child)::after {
-      content: " ▾";
-    }
- 
-    li:hover > ul,
-    li:focus-within > ul,
-    li ul:hover,
-    li ul:focus {
-      box-shadow: 0px 11px 14px -12px rgba(0,0,0,0.75);
-      display: block;
-      visibility: visible;
-      opacity: 1;
-      background-color: inherit;
+
+    li {
+      background-color:inherit;
+      position:relative;
+      // transition-duration:0.5s;
+
+      ul li {
+        clear:both;
+        width:100%;
+      }
+
+      &:focus-within a {
+        outline:none;
+      }
+
+      &:hover,
+      &:focus-within {
+        font-weight:bold;
+        cursor:pointer;
+      }
     }
   }
- 
-  li {
-    background-color: inherit;
-    position: relative;
-    // transition-duration: 0.5s;
- 
-    ul li {
-      clear: both;
-      width: 100%;
-    }
- 
-    &:focus-within a {
-      outline: none;
-    }
- 
-    &:hover,
-    &:focus-within {
-      font-weight: bold;
-      cursor: pointer;
-    }
+
+  .busca {
+    z-index:9999;
   }
-}
 
-.busca {
-  z-index: 9999;
-}
+  .wp-block-contact-form-7-contact-form-selector {
+    display:none;
+  }
 
-header.banner {
-  box-shadow: 0 0 21px 0 rgb(0 0 0 / 30%);
-}
-
-.wp-block-contact-form-7-contact-form-selector {
-  display: none;
-}
-
-.home {
   .wp-block-contact-form-7-contact-form-selector {
     @apply container mx-auto flex;
 
-    display: block;
+    display:block;
 
     label {
-        @apply block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300;
+      @apply block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300;
     }
 
     input,
     textarea {
-        @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500;
+      @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500;
     }
 
     .wpcf7-submit {
-        @apply text-white bg-pros90blue hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
+      @apply text-white bg-pros90blue hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
     }
 
     .wpcf7-response-output {
-        @apply bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3;
+      @apply bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3;
     }
-}
-}
+  }
 
-.article-posts {
+  .article-posts {
     img {
-        @extend %imgeffect;
-      }
-  
-      &:hover img {
-        @extend %hoverimgeffect;
-      }
-}
+      @extend %imgeffect;
+    }
 
-.comments,
-.wpcf7-form {
-  textarea {
-    @apply shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full xl:w-2/4 sm:text-sm border border-gray-300 rounded-md;
-  }
-
-  .comment-form-author,
-  .comment-form-email,
-  .search-form,
-  .wpcf7-form-control-wrap {
-    input {
-      @apply mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full xl:w-2/4 shadow-sm sm:text-sm border-gray-300 rounded-md;
+    &:hover img {
+      @extend %hoverimgeffect;
     }
   }
+
+  // .comment-form,
+  // .wpcf7-form {
+  //   textarea {
+  //     @apply shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full xl:w-2/4 sm:text-sm border border-gray-300 rounded-md;
+  //   }
+
+  //   .comment-form-author,
+  //   .comment-form-email,
+  //   .search-form,
+  //   .wpcf7-form-control-wrap {
+  //     input {
+  //       @apply mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full xl:w-2/4 shadow-sm sm:text-sm border-gray-300 rounded-md;
+  //     }
+  //   }
+  // }
+
+  // .btn,
+  // .search-form button,
+  // .wpcf7-submit {
+  //   @apply bg-blue-500 hover:bg-blue-700 hover:cursor-pointer text-white font-bold py-2 px-4 rounded;
+
+  // }
+
+  // video inside block
+
+  figure.wp-block-video {
+    @apply xl:w-3/5;
+
+  }
+
+  // display none para primeira ocorrencia do plugin social share
+  p.dpsp-share-text:first-of-type {
+    display:none;
+  }
 }
 
-.btn,
-.search-form button,
+// Form
+.comment-form textarea,
+.comment-form input:not(.btn),
+  .wpcf7-form-control:not(.wpcf7-submit) {
+    @extend %formEffect;
+  }
+
+input.btn,
 .wpcf7-submit {
-  @apply bg-blue-500 hover:bg-blue-700 hover:cursor-pointer text-white font-bold py-2 px-4 rounded;
-
+  @apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
 }
 
-// video inside block
+// Links
+// a {
+//   @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600
+// }
 
-figure.wp-block-video {
-  @apply xl:w-3/5;
-  
-}
+// Pagination
+.pagination {
+  color: #357CBF;
+  margin: 3em auto;
+  text-align: center;
 
-// display none para primeira ocorrencia do plugin social share
-p.dpsp-share-text:first-of-type {
-  display: none;
+  h2 {
+    color: inherit;
+  }
+
+  .nav-links {
+    color: inherit;
+    margin: 0 auto;
+
+    a {
+      color: inherit;
+    }
+
+    .page-numbers:not(.prev):not(.next) {
+      border-right: 1px solid #357CBF;
+      padding: 0 10px 0 5px;
+    }
+
+    .current {
+      font-size: large;
+      font-weight: bolder;
+    }
+  }
 }
 
 @media print {
@@ -185,11 +258,11 @@ p.dpsp-share-text:first-of-type {
   form,
   .comments,
   footer {
-    display: none;
+    display:none;
   }
 
   main#main {
-    margin-top: 3rem;
+    margin-top:3rem;
   }
 
   h1,
@@ -197,59 +270,59 @@ p.dpsp-share-text:first-of-type {
   .page-header,
   .author,
   ul,
-  blockquote, {
-    margin: 0;
+  blockquote {
+    margin:0;
   }
 
 
   h1 {
-    font-size: 24pt;
+    font-size:24pt;
   }
 
   h2 {
-    font-size: 14pt;
-    margin-top: 25px;
+    font-size:14pt;
+    margin-top:25px;
   }
 
   aside h2 {
-    font-size: 18pt;
+    font-size:18pt;
   }
 
 
   img {
-    max-width: 500px;
+    max-width:500px;
   }
 
 
   @page {
-    margin: 0.5cm;
+    margin:0.5cm;
   }
 
   @page :left {
-    margin: 0.5cm;
+    margin:0.5cm;
   }
 
   @page :right {
-    margin: 0.8cm;
+    margin:0.8cm;
   }
 
   @page :first {
-    margin: 1cm 2cm;
+    margin:1cm 2cm;
   }
 
-  
+
   body {
-    font: 12pt Georgia, "Times New Roman", Times, serif;
-    line-height: 1.3;
+    font:12pt Georgia, "Times New Roman", Times, serif;
+    line-height:1.3;
   }
 
 
   h1:before {
-    display: block;
-    content: "Obrigado por imprimir nosso conteúdo em carloslobato.com.br!";
-    margin-bottom: 10px;
-    font-size: 10pt;
-    padding: 3px 5px;
-    font-style: italic;
+    display:block;
+    content:"Obrigado por imprimir nosso conteúdo em carloslobato.com.br!";
+    margin-bottom:10px;
+    font-size:10pt;
+    padding:3px 5px;
+    font-style:italic;
   }
 }
