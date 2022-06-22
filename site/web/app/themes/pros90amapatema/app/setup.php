@@ -117,6 +117,11 @@ add_action('widgets_init', function () {
     ];
 
     register_sidebar([
+        'name' => __('Textos', 'sage'),
+        'id' => 'textos-primary',
+    ] + $config);
+
+    register_sidebar([
         'name' => __('Primary', 'sage'),
         'id' => 'sidebar-primary',
     ] + $config);
@@ -126,3 +131,31 @@ add_action('widgets_init', function () {
         'id' => 'sidebar-footer',
     ] + $config);
 });
+
+// Add Facebok JavaScript SDK 
+// add_action('wp_body_open', function () {
+//     include get_template_directory() . '/resources/views/partials/snippets/fbsdk.js';
+// }, 100);
+
+// Add Code to head
+// add_action('wp_head', function () {
+//     include get_template_directory() . '/resources/views/partials/snippets/gtag.js';
+//     include get_template_directory() . '/resources/views/partials/snippets/gconsoleverif.php';
+//     include get_template_directory() . '/resources/views/partials/snippets/clarity.php';
+//     include get_template_directory() . '/resources/views/partials/snippets/gtagbody.js';
+//     include get_template_directory() . '/resources/views/partials/snippets/gtaghead.js';
+// }, 100);
+
+// Remove svg duotone
+add_action('after_setup_theme', function () {
+    remove_action( 'wp_body_open', 'wp_global_styles_render_svg_filters' );
+    remove_action( 'in_admin_header', 'wp_global_styles_render_svg_filters' );
+} );
+
+// REMOVE WP EMOJI
+remove_action('wp_head', 'print_emoji_detection_script', 7);
+remove_action('wp_print_styles', 'print_emoji_styles');
+ 
+remove_action('admin_print_scripts', 'print_emoji_detection_script');
+remove_action('admin_print_styles', 'print_emoji_styles');
+
