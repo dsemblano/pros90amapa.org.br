@@ -140,7 +140,7 @@ add_action('widgets_init', function () {
 // Add Code to head
 add_action('wp_head', function () {
     include get_template_directory() . '/resources/views/partials/snippets/gtag.js';
-    // include get_template_directory() . '/resources/views/partials/snippets/gconsoleverif.php';
+    include get_template_directory() . '/resources/views/partials/snippets/gconsoleverif.php';
     // include get_template_directory() . '/resources/views/partials/snippets/clarity.php';
     include get_template_directory() . '/resources/views/partials/snippets/gtagbody.js';
     include get_template_directory() . '/resources/views/partials/snippets/gtaghead.js';
