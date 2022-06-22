@@ -16,7 +16,7 @@
     <div class="container flex flex-wrap justify-between items-center mx-auto">
       <a class="brand flex items-center px-4 xl:px-0" href="{{ home_url('/') }}">
         {{-- {!! $siteName !!} --}}
-        <img src="@asset('images/logo.webp')" />
+        <img class="w-24" src="@asset('images/logo.png')" />
       </a>
     <div id="busca" class="flex md:order-2">
       <button type="button" data-collapse-toggle="mobile-menu-3" aria-controls="mobile-menu-3" aria-expanded="false" class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 mr-1" >
