@@ -1,5 +1,5 @@
 <span class="space-x-8 mb-4 fill-current">
-    <a class="appearance-none" type="button" aria-label="social-icon" href="https://twitter.com/_carloslobato"
+    <a class="appearance-none" type="button" aria-label="social-icon" href="https://twitter.com/prosamapa90"
         target="_blank" rel="noopener noreferrer">
         <svg aria-hidden="true" focusable="false" data-prefix="fab"
             data-icon="twitter"
@@ -10,7 +10,7 @@
             </path>
         </svg>
     </a>
-    <a class="appearance-none" type="button" aria-label="social-icon" href="https://www.facebook.com/carloslobatooficial"
+    <a class="appearance-none" type="button" aria-label="social-icon" href="https://www.facebook.com/prosamapa90"
         target="_blank" rel="noopener noreferrer">
         <svg aria-hidden="true" focusable="false" data-prefix="fab"
             data-icon="facebook"
@@ -21,7 +21,7 @@
             </path>
         </svg>
     </a>
-    <a class="appearance-none" type="button" aria-label="social-icon" href="https://www.instagram.com/carloslobatto/"
+    <a class="appearance-none" type="button" aria-label="social-icon" href="https://www.instagram.com/prosamapa90/"
         target="_blank" rel="noopener noreferrer">
         <svg aria-hidden="true" focusable="false" data-prefix="fab"
             data-icon="instagram"

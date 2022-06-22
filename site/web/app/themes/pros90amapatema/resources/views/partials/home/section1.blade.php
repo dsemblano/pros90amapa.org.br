@@ -3,7 +3,7 @@
   <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
     <h1 class="my-4 text-5xl font-bold leading-tight">Carlos Lobato</h1>
     <p class="leading-normal text-xl mb-8">
-      Amapaense, advogado, psicólogo, sociólogo, jornalista e âncora do programa Tribuna da Cidade na 1.
+      Amapaense, advogado, psicólogo, sociólogo, jornalista e âncora do Tribuna da Cidade na 101 FM
     </p>
     <div class="social hidden lg:block w-full">
       <div class="mb-6 flex flex-col fill-pros90blue">

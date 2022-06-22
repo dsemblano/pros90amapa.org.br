@@ -6,7 +6,7 @@
     @include('partials/snippets.socialicons')
     <br>
     <div class="text-center text-white fill-white mt-2">
-      Carlos Lobato © Todos os direitos reservados. {{ date('Y') }}
+      PROS 90 Amapá © Todos os direitos reservados. {{ date('Y') }}
     </div>
   </div>
 
