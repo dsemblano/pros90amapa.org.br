@@ -39,6 +39,14 @@
   }
 }
 
+%shadowSmooth {
+  box-shadow:0 0 21px 0 rgb(0 0 0 / 30%);
+}
+
+body {
+  @apply bg-pros90gray;
+}
+
 // Menu
 .banner {
   box-shadow:0 0 21px 0 rgb(0 0 0 / 30%);
@@ -155,17 +163,7 @@
     .wpcf7-response-output {
       @apply bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3;
     }
-  }
-
-  .article-posts {
-    img {
-      @extend %imgeffect;
-    }
-
-    &:hover img {
-      @extend %hoverimgeffect;
-    }
-  }
+  } 
 
   // .comment-form,
   // .wpcf7-form {
@@ -200,6 +198,18 @@
   // display none para primeira ocorrencia do plugin social share
   p.dpsp-share-text:first-of-type {
     display:none;
+  }
+}
+
+// Articles
+.article-posts .box {
+  @extend %shadowSmooth;
+  img {
+    @extend %imgeffect;
+  }
+
+  &:hover img {
+    @extend %hoverimgeffect;
   }
 }
 

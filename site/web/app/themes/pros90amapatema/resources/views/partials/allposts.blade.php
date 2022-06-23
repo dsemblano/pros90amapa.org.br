@@ -4,8 +4,8 @@
 
 <!-- the loop -->
 <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
-<article @php(post_class('article-posts xl:w-1/3 md:w-1/2 mt-4'))>
-    <div class="bg-white p-6 rounded-lg">
+<article @php(post_class('article-posts xl:w-1/3 md:w-1/2 mt-4 pr-4'))>
+    <div class="box bg-white p-6 rounded-lg">
         <figure class="thumbnail">
             <a href="{{ get_permalink() }}">
             @if ( has_post_thumbnail() )
