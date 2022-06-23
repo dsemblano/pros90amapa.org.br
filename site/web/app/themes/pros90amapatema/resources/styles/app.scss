@@ -178,6 +178,11 @@ body {
   }
 }
 
+// Facebook box
+section.social.block {
+  margin-bottom: 3rem;
+}
+
 // Instaram
 .wdi_feed_container {
   @extend %shadowSmooth;
