@@ -6,7 +6,7 @@
 
 <footer class="content-info bg-pros90blue mt-12 px-10">
 
-  <div class="text-white fill-white flex flex-row justify-around container py-7">
+  <div class="text-white fill-white flex flex-col lg:flex-row justify-around container py-7">
     <section class="socialicons">
       @include('partials/snippets.whatsapp')
       @include('partials/snippets.socialicons')
@@ -16,5 +16,5 @@
   <div class="text-center text-white pb-8">
     PROS 90 Amapá © Todos os direitos reservados. {{ date('Y') }}
   </div>
-  
+
 </footer>
