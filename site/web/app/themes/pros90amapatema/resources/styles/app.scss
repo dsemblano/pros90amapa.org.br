@@ -183,7 +183,11 @@ section.social.block {
   margin-bottom: 3rem;
 }
 
-// Instaram
+// Instagram
+.wdi_feed_main_container {
+  margin-top: 4rem;
+}
+
 .wdi_feed_container {
   @extend %shadowSmooth;
 
