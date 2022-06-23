@@ -54,6 +54,7 @@
     "wpackagist-plugin/mobile-menu":">=2.8.1.8",
     "wpackagist-plugin/redirection":">=5.2.3",
     "wpackagist-plugin/flexy-breadcrumb":">=1.2.1",
+    "wpackagist-plugin/wayfinder":">=1.1.2",
     "roots/acorn": "^2.0"
   },
   "require-dev": {
