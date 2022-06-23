@@ -1,4 +1,4 @@
-<article @php(post_class('article-posts xl:w-1/3 md:w-1/2 mt-4'))>
+<article @php(post_class('article-posts w-full xl:w-1/3 md:w-1/2 mt-4 pr-0 xl:pr-4'))>
   <div class="box bg-white p-6 rounded-lg">
     <figure class="thumbnail">
       <a href="{{ get_permalink() }}">
