@@ -1,8 +1,8 @@
 <div class="noticias w-full">
-    <div class="page-header text-center container mt-4 mb-0 lg:mb-10 prose lg:prose-xl prose-img:rounded-xl prose-a:text-blue-600 hover:prose-a:text-blue-500">
+    <div class="page-header text-center container mb-0 lg:mt-12 lg:mb-8 prose lg:prose-xl prose-img:rounded-xl prose-a:text-blue-600 hover:prose-a:text-blue-500">
         <h2>Notícias</h2>
     </div>
-    <div class="flex flex-wrap -m-4">
+    <div class="flex flex-wrap">
         <?php $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
         <?php if ( $wpb_all_query->have_posts() ) : ?>
         <!-- the loop -->
