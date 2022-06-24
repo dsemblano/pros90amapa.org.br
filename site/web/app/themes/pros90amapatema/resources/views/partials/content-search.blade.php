@@ -1,5 +1,5 @@
-<article @php(post_class('article-posts xl:w-1/3 md:w-1/2 mt-4'))>
-  <div class="bg-white p-6 ">
+<article @php(post_class('article-posts w-full xl:w-1/3 md:w-1/2 mt-4 pr-0 xl:pr-4'))>
+  <div class=" box bg-white ">
     <figure class="thumbnail">
       <a href="{{ get_permalink() }}">
       @if ( has_post_thumbnail() )
@@ -9,7 +9,7 @@
       @endif
       </a>
     </figure>
-      <header>
+    <header class="p-6">
         <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
           <a href="{{ get_permalink() }}">
             {!! $title !!}
