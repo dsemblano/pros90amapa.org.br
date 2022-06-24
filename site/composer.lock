@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d8a38fc18db48ae44ef8a3b4b496c908",
+    "content-hash": "9f342d29aa7e81627c62c8627546aa6f",
     "packages": [
         {
             "name": "brick/math",
@@ -4813,6 +4813,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/automatic-translator-addon-for-loco-translate/"
+        },
+        {
+            "name": "wpackagist-plugin/block-navigation",
+            "version": "4.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/block-navigation/",
+                "reference": "tags/4.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/block-navigation.4.1.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/block-navigation/"
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
