@@ -254,18 +254,25 @@ input.btn,
 }
 
 // Widgets
-.wp-widget-group__inner-blocks {
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
+.widget_block {
+  h3 {
+    font-weight: bold;
+  }
 
-  .wp-block-group {
-    margin-bottom: 1rem;
-
-    h4 {
-      font-weight: bold;
+  .wp-widget-group__inner-blocks {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  
+    .wp-block-group {
+      margin-bottom: 1rem;
+  
+      h4 {
+        font-weight: bold;
+      }
     }
   }
 }
+
 
 @media print {
 
