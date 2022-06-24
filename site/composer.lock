@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f342d29aa7e81627c62c8627546aa6f",
+    "content-hash": "c7dea001128cfcc546cc03c2e0e5c459",
     "packages": [
         {
             "name": "brick/math",
@@ -4885,24 +4885,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/loco-translate/"
-        },
-        {
-            "name": "wpackagist-plugin/mobile-menu",
-            "version": "2.8.2.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/mobile-menu/",
-                "reference": "tags/2.8.2.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mobile-menu.2.8.2.7.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/mobile-menu/"
         },
         {
             "name": "wpackagist-plugin/photo-gallery",

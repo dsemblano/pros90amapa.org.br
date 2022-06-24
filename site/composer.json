@@ -51,7 +51,6 @@
     "wpackagist-plugin/social-pug":">=1.20.1",
     "wpackagist-theme/twentytwentytwo": "^1.2",
     "wpackagist-plugin/photo-gallery":">=1.6.5",
-    "wpackagist-plugin/mobile-menu":">=2.8.1.8",
     "wpackagist-plugin/redirection":">=5.2.3",
     "wpackagist-plugin/flexy-breadcrumb":">=1.2.1",
     "wpackagist-plugin/wayfinder":">=1.1.2",
