@@ -1,11 +1,11 @@
 <article @php(post_class('article-posts xl:w-1/3 md:w-1/2 mt-4'))>
-  <div class="bg-white p-6 rounded-lg">
+  <div class="bg-white p-6 ">
     <figure class="thumbnail">
       <a href="{{ get_permalink() }}">
       @if ( has_post_thumbnail() )
-        {{ the_post_thumbnail('post-thumbnail', ['class' => 'lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72  rounded w-full object-cover object-center mb-6', 'title' => 'Feature image']); }}
+        {{ the_post_thumbnail('post-thumbnail', ['class' => 'lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72   w-full object-cover object-center mb-6', 'title' => 'Feature image']); }}
         @else
-        <img class="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72  rounded w-full object-cover object-center mb-6" src="@asset('images/default.png')"  alt="{!! $title !!}">
+        <img class="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72   w-full object-cover object-center mb-6" src="@asset('images/default.png')"  alt="{!! $title !!}">
       @endif
       </a>
     </figure>
