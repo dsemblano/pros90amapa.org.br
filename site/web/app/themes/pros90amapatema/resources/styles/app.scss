@@ -259,6 +259,10 @@ input.btn,
     font-weight: bold;
   }
 
+  a:hover {
+    text-decoration: underline;
+  }
+
   .wp-widget-group__inner-blocks {
     margin-top: 0.5rem;
     font-size: 0.9rem;
