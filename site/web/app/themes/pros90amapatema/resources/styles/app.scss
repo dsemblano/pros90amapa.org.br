@@ -165,6 +165,12 @@ body {
     }
   }
 
+  // Filiação Form
+.filiacao {
+  background-color: red;
+  display: none;
+}
+
   // video inside block
 
   figure.wp-block-video {
@@ -349,4 +355,17 @@ input.btn,
     padding:3px 5px;
     font-style:italic;
   }
+}
+
+// Filiacao
+.filiacao {
+  .cf7label {
+    @apply text-base;
+    
+    gap: 1rem;
+  }
+  // .wpcf7-form.init label span input {
+  //   width: 50% !important;
+  //   max-width: inherit;
+  // }
 }
