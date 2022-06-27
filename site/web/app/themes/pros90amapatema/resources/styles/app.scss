@@ -362,6 +362,12 @@ input.btn,
   .wp-container-1.wp-block-group {
     display: flex;
   }
+  .wpcf7-form-control.wpcf7-text {
+    font-size: 0.8rem;
+  }
+  .wpcf7-form-control.wpcf7-number {
+    font-size: 0.8rem;
+  }
   .cf7label {
     @apply text-base;
 
