@@ -57,8 +57,8 @@
     "wpackagist-plugin/block-navigation":">=4.1.1",
     "wpackagist-plugin/cf7-cep-autofill":">=1.0.8",
     "wpackagist-plugin/everest-forms":">=1.8.9",
-    "wpackagist-plugin/cf7-cpfcnpj-validations":">=0.0.4",
     "wpackagist-plugin/contact-form-cfdb7":">=1.2.6.4",
+    "wpackagist-plugin/wp-all-import":">=3.6.7",
     "roots/acorn": "^2.0"
   },
   "require-dev": {

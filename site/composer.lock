@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9be353cbaf6effb26d5d0e4cf8321833",
+    "content-hash": "fb21a0236d55be8a3a3b4e393bd74f94",
     "packages": [
         {
             "name": "brick/math",
@@ -4851,24 +4851,6 @@
             "homepage": "https://wordpress.org/plugins/cf7-cep-autofill/"
         },
         {
-            "name": "wpackagist-plugin/cf7-cpfcnpj-validations",
-            "version": "0.0.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/cf7-cpfcnpj-validations/",
-                "reference": "tags/0.0.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cf7-cpfcnpj-validations.0.0.4.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/cf7-cpfcnpj-validations/"
-        },
-        {
             "name": "wpackagist-plugin/contact-form-7",
             "version": "5.6",
             "source": {
@@ -5065,6 +5047,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wd-instagram-feed/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-all-import",
+            "version": "3.6.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-all-import/",
+                "reference": "tags/3.6.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-all-import.3.6.7.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-all-import/"
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",
