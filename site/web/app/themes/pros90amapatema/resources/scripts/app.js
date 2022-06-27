@@ -1,5 +1,6 @@
 import {domReady} from '@roots/sage/client';
 import 'flowbite/dist/flowbite.js';
+import 'js-brasil/dist/js-brasil.js';
 
 
 /**
@@ -21,6 +22,10 @@ const main = async (err) => {
  */
 domReady(main);
 import.meta.webpackHot?.accept(main);
+
+// cf7 jsbrasil validate
+// const { maskBr } = require('js-brasil');
+// const titulo = maskBr.titulo('5287.4602.0124'); 
 
 // cf7 mask
 jQuery(document).ready(function($){
@@ -60,10 +65,10 @@ jQuery(document).ready(function($){
     }
   });
 
-  $('.crazy_cep').mask('00000-000', {onKeyPress: function(cep, e, field, options){
+  $('.cf7-cep-autofill').mask('00000-000', {onKeyPress: function(cep, e, field, options){
     var masks = ['00000-000', '0-00-00-00'];
       mask = (cep.length>7) ? masks[1] : masks[0];
-    $('.crazy_cep').mask(mask, options);
+    $('.cf7-cep-autofill').mask(mask, options);
   }});
 
   $('.cnpj').mask('00.000.000/0000-00', {reverse: true});
