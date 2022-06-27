@@ -359,9 +359,12 @@ input.btn,
 
 // Filiacao
 .filiacao {
+  .wp-container-1.wp-block-group {
+    display: flex;
+  }
   .cf7label {
     @apply text-base;
-    
+
     gap: 1rem;
   }
   // .wpcf7-form.init label span input {
