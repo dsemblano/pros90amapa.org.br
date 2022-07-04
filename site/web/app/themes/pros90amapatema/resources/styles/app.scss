@@ -378,3 +378,25 @@ input.btn,
   //   max-width: inherit;
   // }
 }
+
+// Pre-canditatos
+
+.precandidatos {
+  @apply w-full flex gap-x-8;
+}
+
+.childpagecandidato {
+  @apply max-w-sm w-full bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700;
+
+  img {
+    @apply rounded-t-lg m-0 max-h-48 w-full;
+  }
+  
+  .containertext {
+    @apply p-5;
+
+    h3 {
+      @apply m-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white;
+    }
+  }
+}

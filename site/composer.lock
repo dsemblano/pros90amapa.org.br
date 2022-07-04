@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "099c146d2414f4cc3f4272a366c9a47d",
+    "content-hash": "75289ab3372ad16d63c565710122a44f",
     "packages": [
         {
             "name": "brick/math",
@@ -4836,6 +4836,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/block-navigation/"
+        },
+        {
+            "name": "wpackagist-plugin/cc-child-pages",
+            "version": "1.40",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cc-child-pages/",
+                "reference": "tags/1.40"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cc-child-pages.1.40.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cc-child-pages/"
         },
         {
             "name": "wpackagist-plugin/cf7-cep-autofill",

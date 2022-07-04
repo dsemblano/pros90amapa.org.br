@@ -22,3 +22,8 @@ add_filter( 'comment_form_default_fields', function($fields) {
     unset($fields['url']);
     return $fields;
 });
+
+// child pages plugin
+add_filter('ccchildpages_inner_template', function () {
+    return '<article class="childpagecandidato">{{thumbnail}}<div class="containertext"><h3{{title_class}}>{{title}}</h3></div>{{meta}}{{excerpt}}{{more}}</article>';
+});
