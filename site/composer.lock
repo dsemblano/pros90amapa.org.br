@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb43aff724ff5ae792ac3b70af11a261",
+    "content-hash": "099c146d2414f4cc3f4272a366c9a47d",
     "packages": [
         {
             "name": "brick/math",
@@ -4892,24 +4892,6 @@
             "homepage": "https://wordpress.org/plugins/contact-form-cfdb7/"
         },
         {
-            "name": "wpackagist-plugin/everest-forms",
-            "version": "1.8.9",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/everest-forms/",
-                "reference": "tags/1.8.9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/everest-forms.1.8.9.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/everest-forms/"
-        },
-        {
             "name": "wpackagist-plugin/ewww-image-optimizer",
             "version": "6.6.0",
             "source": {
@@ -4965,15 +4947,15 @@
         },
         {
             "name": "wpackagist-plugin/photo-gallery",
-            "version": "1.6.8",
+            "version": "1.6.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/photo-gallery/",
-                "reference": "tags/1.6.8"
+                "reference": "tags/1.6.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/photo-gallery.1.6.8.zip"
+                "url": "https://downloads.wordpress.org/plugin/photo-gallery.1.6.9.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5070,24 +5052,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wd-instagram-feed/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-all-import",
-            "version": "3.6.8",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-all-import/",
-                "reference": "tags/3.6.8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-all-import.3.6.8.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-all-import/"
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",
