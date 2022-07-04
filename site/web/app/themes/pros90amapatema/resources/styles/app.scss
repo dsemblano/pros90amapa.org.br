@@ -382,11 +382,11 @@ input.btn,
 // Pre-canditatos
 
 .precandidatos {
-  @apply w-full flex gap-x-8;
+  @apply w-full flex flex-col lg:flex-row lg:gap-x-8;
 }
 
 .childpagecandidato {
-  @apply max-w-sm w-full bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700;
+  @apply max-w-sm w-full my-10 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700;
 
   img {
     @apply rounded-t-lg m-0 w-full;
