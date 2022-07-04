@@ -8,7 +8,7 @@
 
   <div class="text-white fill-white flex flex-col lg:flex-row justify-around container py-7">
     <section class="socialicons text-center lg:text-left mb-6 lg:mb-0">
-      @include('partials/snippets.whatsapp')
+      {{-- @include('partials/snippets.whatsapp') --}}
       @include('partials/snippets.socialicons')
     </section>
     @php(dynamic_sidebar('sidebar-footer'))
