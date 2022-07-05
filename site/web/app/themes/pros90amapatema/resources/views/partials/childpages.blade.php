@@ -1,6 +1,6 @@
 <div class="noticias w-full">
     <div class="page-header text-center container mb-0 lg:mt-12 lg:mb-8 prose lg:prose-xl  prose-a:text-blue-600 hover:prose-a:text-blue-500">
-        <h2>Pré-Canditados 2022</h2>
+        <h1>Pré-Canditados 2022</h1>
     </div>
     <div class="flex flex-wrap">
     <?php
