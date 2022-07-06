@@ -7,7 +7,7 @@
 <footer class="content-info bg-pros90blue mt-12 px-10">
 
   <div class="text-white fill-white flex flex-col lg:flex-row justify-around container py-7">
-    <section class="socialicons text-center lg:text-left mb-6 lg:mb-0">
+    <section class="socialicons text-center lg:text-left mb-6 lg:my-8">
       {{-- @include('partials/snippets.whatsapp') --}}
       @include('partials/snippets.socialicons')
     </section>
