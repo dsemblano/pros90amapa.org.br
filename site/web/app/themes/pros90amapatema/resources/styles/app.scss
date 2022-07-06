@@ -425,9 +425,8 @@ ul.wp-block-social-links {
 .o-partido {
   .wp-block-image,
   .wp-block-image img,
-  .has-text-align-left {
-    @apply text-left lg:text-center;
-
+  h2.has-text-align-left,
+  h2.has-text-align-center {
     margin: 0;
   }
 } 
