@@ -426,6 +426,8 @@ ul.wp-block-social-links {
   .wp-block-image,
   .wp-block-image img,
   .has-text-align-left {
+    @apply text-left lg:text-center;
+
     margin: 0;
   }
 } 
