@@ -1,4 +1,4 @@
-<article @php(post_class('container prose lg:prose-xl  prose-a:text-blue-600 hover:prose-a:text-blue-500'))>
+<article @php(post_class('container prose lg:prose-2xl prose-a:text-blue-600 hover:prose-a:text-blue-500'))>
   <header>
     <h1 class="entry-title">
       {!! $title !!}
