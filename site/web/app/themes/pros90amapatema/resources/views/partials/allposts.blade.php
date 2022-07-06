@@ -1,5 +1,5 @@
 <div class="noticias w-full">
-    <div class="page-header text-center container mb-0 lg:mt-12 lg:mb-8 prose lg:prose-xl  prose-a:text-blue-600 hover:prose-a:text-blue-500">
+    <div class="page-header text-center container my-8 lg:mt-12 lg:mb-8 prose lg:prose-xl  prose-a:text-blue-600 hover:prose-a:text-blue-500">
         <h2>Notícias</h2>
     </div>
     <div class="flex flex-wrap">
