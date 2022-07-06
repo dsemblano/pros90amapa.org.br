@@ -14,7 +14,7 @@
     @php(dynamic_sidebar('sidebar-footer'))
   </div>
   <div class="text-center text-white pb-8">
-    PROS 90 Amapá © Todos os direitos reservados. {{ date('Y') }}
+    PROS Amapá © <br class="block lg:hidden">Todos os direitos reservados. {{ date('Y') }}
     <p>CNPJ: 19.225.311/0001-87</p>
   </div>
 
