@@ -420,3 +420,12 @@ ul.wp-block-social-links {
 .relpost-block-container {
   @apply prose;
 }
+
+// O Partido page
+.o-partido {
+  .wp-block-image,
+  .wp-block-image img,
+  .has-text-align-left {
+    margin: 0;
+  }
+} 
