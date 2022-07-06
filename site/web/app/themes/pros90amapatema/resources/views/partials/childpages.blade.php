@@ -25,7 +25,7 @@
                 </a>
             </figure>
             <header class="p-6">
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
+                <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">
                     <a href="<?= $children->guid ?>">
                         <?= $children->post_title ?>
                     </a>
