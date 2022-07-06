@@ -407,10 +407,13 @@ article.childpagecandidato {
   padding-bottom: 2rem;
 }
 
-ul.wp-block-social-links {
-  padding-left: 0;
-
-  li {
+.page {
+  ul.wp-block-social-links {
     padding-left: 0;
-    }
+  
+    li {
+      padding-left: 0;
+      }
+  }  
 }
+
