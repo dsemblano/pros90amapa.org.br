@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "607a844be7508c82505c7b6312a6bf15",
+    "content-hash": "0fc1ad13985dec5bddda3e3a72681396",
     "packages": [
         {
             "name": "brick/math",
@@ -5036,16 +5036,34 @@
             "homepage": "https://wordpress.org/plugins/related-posts-thumbnails/"
         },
         {
-            "name": "wpackagist-plugin/social-pug",
-            "version": "1.20.1",
+            "name": "wpackagist-plugin/shareaholic",
+            "version": "9.7.6",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/social-pug/",
-                "reference": "tags/1.20.1"
+                "url": "https://plugins.svn.wordpress.org/shareaholic/",
+                "reference": "tags/9.7.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/social-pug.1.20.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/shareaholic.9.7.6.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/shareaholic/"
+        },
+        {
+            "name": "wpackagist-plugin/social-pug",
+            "version": "1.20.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/social-pug/",
+                "reference": "tags/1.20.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/social-pug.1.20.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"

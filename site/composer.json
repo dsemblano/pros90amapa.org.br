@@ -60,6 +60,7 @@
     "wpackagist-plugin/ewww-image-optimizer":">=6.6.0",
     "wpackagist-plugin/cc-child-pages":">=1.40",
     "wpackagist-plugin/related-posts-thumbnails":">=2.0.3",
+    "wpackagist-plugin/shareaholic":">=9.7.6",
     "roots/acorn": "^2.0"
   },
   "require-dev": {
