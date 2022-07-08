@@ -1,6 +1,6 @@
 <article @php(post_class('container prose lg:prose-2xl prose-a:text-blue-600 hover:prose-a:text-blue-500'))>
   <header>
-    <h1 class="entry-title text-pros90lightblue animated animatedFadeInUp fadeInUp">
+    <h1 class="entry-title my-8 text-pros90lightblue animated animatedFadeInUp fadeInUp">
       {!! $title !!}
     </h1>
 
