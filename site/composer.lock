@@ -2089,16 +2089,16 @@
         },
         {
             "name": "roots/acorn",
-            "version": "v2.0.6",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/acorn.git",
-                "reference": "b6eeae53bcac7d321b06b9fb4316c67240e8b48b"
+                "reference": "c61a1deca46150c09f6e659bf9a7893ec5ac72fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roots/acorn/zipball/b6eeae53bcac7d321b06b9fb4316c67240e8b48b",
-                "reference": "b6eeae53bcac7d321b06b9fb4316c67240e8b48b",
+                "url": "https://api.github.com/repos/roots/acorn/zipball/c61a1deca46150c09f6e659bf9a7893ec5ac72fa",
+                "reference": "c61a1deca46150c09f6e659bf9a7893ec5ac72fa",
                 "shasum": ""
             },
             "require": {
@@ -2173,7 +2173,7 @@
             "support": {
                 "forum": "https://discourse.roots.io/",
                 "issues": "https://github.com/roots/acorn/issues",
-                "source": "https://github.com/roots/acorn/tree/v2.0.6"
+                "source": "https://github.com/roots/acorn/tree/v2.1.0"
             },
             "funding": [
                 {
@@ -2185,7 +2185,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-05-07T01:34:04+00:00"
+            "time": "2022-07-08T03:12:14+00:00"
         },
         {
             "name": "roots/bedrock-autoloader",
@@ -4965,15 +4965,15 @@
         },
         {
             "name": "wpackagist-plugin/photo-gallery",
-            "version": "1.6.9",
+            "version": "1.6.10",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/photo-gallery/",
-                "reference": "tags/1.6.9"
+                "reference": "tags/1.6.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/photo-gallery.1.6.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/photo-gallery.1.6.10.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"

@@ -6,7 +6,7 @@
     <div class="flex flex-wrap">
     <?php
         $my_wp_query = new WP_Query();
-        $all_wp_pages = $my_wp_query->query(array('post_type' => 'page', 'posts_per_page' => -1));
+        $all_wp_pages = $my_wp_query->query(array('post_type' => 'page', 'orderby' => 'title', 'order' => 'ASC', 'posts_per_page' => -1));
         
 
         // Get the page as an Object
