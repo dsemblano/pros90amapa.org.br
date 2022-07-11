@@ -1,16 +1,3 @@
-<script type="text/javascript">
-  $( document ).ready(function() {
-  $('.menu-item-has-children').on('click', function(){
-
-  if ($('.menu-item-has-children').hasClass('open')) {
-     $(this).removeClass('open');
-   } else {
-      $(this).addClass('open');
-   }
-  });  
-});
-</script>
-
 <header class="banner bg-white fixed top-0 w-full z-50">
   <nav class="nav-primary container py-2 text-xs 2xl:text-lg">
     <div class="container flex flex-wrap justify-between items-center mx-auto">
