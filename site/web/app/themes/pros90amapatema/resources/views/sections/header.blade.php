@@ -21,7 +21,7 @@
         <div class="relative mt-3 md:hidden">
           @include('partials/inputsearch')
         </div>
-        {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0', 'echo' => false]) !!}
+        {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium', 'echo' => false]) !!}
       </div>
     </div>
   </nav>
