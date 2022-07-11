@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0fc1ad13985dec5bddda3e3a72681396",
+    "content-hash": "3d224c44de79b7b738596f708296db82",
     "packages": [
         {
             "name": "brick/math",
@@ -2089,16 +2089,16 @@
         },
         {
             "name": "roots/acorn",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/acorn.git",
-                "reference": "c61a1deca46150c09f6e659bf9a7893ec5ac72fa"
+                "reference": "0d68d0fbd2d61a3141d277ef588bd53c7a2cf5e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roots/acorn/zipball/c61a1deca46150c09f6e659bf9a7893ec5ac72fa",
-                "reference": "c61a1deca46150c09f6e659bf9a7893ec5ac72fa",
+                "url": "https://api.github.com/repos/roots/acorn/zipball/0d68d0fbd2d61a3141d277ef588bd53c7a2cf5e0",
+                "reference": "0d68d0fbd2d61a3141d277ef588bd53c7a2cf5e0",
                 "shasum": ""
             },
             "require": {
@@ -2173,7 +2173,7 @@
             "support": {
                 "forum": "https://discourse.roots.io/",
                 "issues": "https://github.com/roots/acorn/issues",
-                "source": "https://github.com/roots/acorn/tree/v2.1.0"
+                "source": "https://github.com/roots/acorn/tree/v2.1.1"
             },
             "funding": [
                 {
@@ -2185,7 +2185,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-07-08T03:12:14+00:00"
+            "time": "2022-07-10T17:51:21+00:00"
         },
         {
             "name": "roots/bedrock-autoloader",
@@ -4962,6 +4962,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/loco-translate/"
+        },
+        {
+            "name": "wpackagist-plugin/mobile-menu",
+            "version": "2.8.2.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mobile-menu/",
+                "reference": "tags/2.8.2.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mobile-menu.2.8.2.7.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mobile-menu/"
         },
         {
             "name": "wpackagist-plugin/photo-gallery",
