@@ -1,0 +1,1349 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 10Web Social Photo Feed\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-12 12:15+0000\n"
+"PO-Revision-Date: 2022-07-12 12:16+0000\n"
+"Last-Translator: \n"
+"Language-Team: Português do Brasil\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0\n"
+"X-Domain: wd-instagram-feed"
+
+#: admin/views/settings.php:63
+msgid "(New API)"
+msgstr ""
+
+#. Author of the plugin
+msgid "10Web"
+msgstr ""
+
+#: wd-instagram-feed.php:301
+msgid ""
+"10Web Disclaimer: The above text is for informational purposes only and is "
+"not a legal advice. You must not rely on it as an alternative to legal "
+"advice. You should contact your legal counsel to obtain advice with respect "
+"to your particular case."
+msgstr ""
+
+#. Name of the plugin
+msgid "10Web Social Photo Feed"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"10Web Social Photo Feed is a user-friendly tool for displaying user or "
+"hashtag-based feeds on your website. You can create feeds with one of the "
+"available layouts. It allows displaying image metadata, open up images in "
+"lightbox, download them and even share in social networking websites."
+msgstr ""
+
+#: wd-instagram-feed.php:745
+msgid "4 Fully Customizable Layouts"
+msgstr ""
+
+#: admin/views/feeds.php:355
+msgid "A number of first images/videos are preloaded"
+msgstr ""
+
+#: admin/views/feeds.php:338
+msgid "Absolute Url to redirect to."
+msgstr ""
+
+#: admin/views/settings.php:82
+msgid "Access Token:"
+msgstr ""
+
+#: admin/views/settings.php:55
+msgid "Accounts"
+msgstr ""
+
+#: admin/views/feeds.php:337
+msgid "Action OnClick"
+msgstr ""
+
+#: admin/views/feeds.php:916
+msgid "Add"
+msgstr ""
+
+#: admin/views/feeds.php:932 admin/views/feeds.php:952
+msgid "Add Condition"
+msgstr ""
+
+#: admin/views/feeds.php:304
+msgid "Add hashtags to your feed. Hashtags must start with #."
+msgstr ""
+
+#: admin/views/feeds.php:530
+msgid "Add Link to Instagram Post"
+msgstr ""
+
+#: admin/views/feeds.php:65
+msgid "Add new"
+msgstr ""
+
+#: frontend/shortcode.php:351
+msgid "Admin warning: there is one or more private user in this feed"
+msgstr ""
+
+#: admin-functions.php:659 admin/controllers/settings.php:55
+msgid "Administrator"
+msgstr ""
+
+#: wd-instagram-feed.php:753
+msgid "Advanced Lightbox"
+msgstr ""
+
+#: admin/views/settings.php:102
+msgid "Advanced Options"
+msgstr ""
+
+#: wd-instagram-feed.php:505
+msgid "All the data will be removed from the database. Continue?"
+msgstr ""
+
+#: wd-instagram-feed.php:509
+msgid "already added!"
+msgstr ""
+
+#: admin-functions.php:29
+msgid "Already Unistalled"
+msgstr ""
+
+#: admin/views/feeds.php:504
+msgid "Always"
+msgstr ""
+
+#: wd-instagram-feed.php:522
+msgid "AND"
+msgstr ""
+
+#: admin/views/settings.php:218
+msgid ""
+"Are you connecting a Personal or<br class=\"wdi_desktop\"> Business "
+"Instagram Profile?"
+msgstr ""
+
+#: wd-instagram-feed.php:506 admin/views/uninstall.php:43
+msgid "Are you sure you want to uninstall plugin?"
+msgstr ""
+
+#: wd-instagram-feed.php:432
+msgid "Ask a question"
+msgstr ""
+
+#: admin-functions.php:660 admin/controllers/settings.php:56
+msgid "Author"
+msgstr ""
+
+#: admin/views/feeds.php:491
+msgid "Autoplay Interval"
+msgstr ""
+
+#: wd-instagram-feed.php:778
+msgid "Blog Style Layout"
+msgstr ""
+
+#: admin/views/feeds.php:71
+msgid "Bulk Actions"
+msgstr ""
+
+#: admin/views/settings.php:231
+msgid "Business"
+msgstr ""
+
+#: framework/WDILibrary.php:244
+msgid ""
+"Cannot find connected Instagram business page. Either you do not have "
+"Instagram business account or it is not connected to current Facebook user's "
+"page."
+msgstr ""
+
+#: frontend/shortcode.php:64
+msgid ""
+"Cannot get other user media. API shut down by Instagram. Sorry. Display only "
+"your media."
+msgstr ""
+
+#: admin/controllers/feeds.php:184 admin/controllers/feeds.php:261
+msgid "Cannot Write on database. Check database permissions."
+msgstr ""
+
+#: admin/views/feeds.php:505
+msgid "Caption Displayed by Default"
+msgstr ""
+
+#: admin/views/feeds.php:584
+msgid "Changing Theme is available only in premium version"
+msgstr ""
+
+#: admin-functions.php:636 admin/views/settings.php:112
+msgid "Check for new posts every (min)"
+msgstr ""
+
+#: frontend/shortcode.php:239
+msgid "Click to filter images by this user"
+msgstr ""
+
+#: admin/views/feeds.php:357
+msgid "Combine and Sort Again After Loading More"
+msgstr ""
+
+#: admin/views/feeds.php:335
+msgid "Comments"
+msgstr ""
+
+#: admin/views/feeds.php:946
+msgid "Condition Type"
+msgstr ""
+
+#: wd-instagram-feed.php:790 admin/views/feeds.php:545
+#: admin/views/feeds.php:775
+msgid "Conditional Filters"
+msgstr ""
+
+#: admin/views/settings.php:239
+msgid "Connect"
+msgstr ""
+
+#: framework/WDILibrary.php:249 framework/WDILibrary.php:254
+msgid "Connected successfully."
+msgstr ""
+
+#: frontend/shortcode.php:235
+msgid "Connection Error, try again later :("
+msgstr ""
+
+#: admin-functions.php:661 admin/controllers/settings.php:57
+msgid "Contributor"
+msgstr ""
+
+#: wd-instagram-feed.php:750
+msgid ""
+"Create mixed and single feeds of Instagram posts. Single feeds can be based "
+"on public Instagram accounts and single Instagram hashtag. Mixed feeds can "
+"contain multiple public Instagram accounts and multiple Instagram hashtags. "
+"A front end filter is available for mixed feeds. Click to filter only one "
+"feed based on a single hashtag or account."
+msgstr ""
+
+#: wd-instagram-feed.php:770
+msgid "Creating an Instagram Feed"
+msgstr ""
+
+#: admin-functions.php:671 admin/views/settings.php:131
+msgid "Custom CSS"
+msgstr ""
+
+#: admin-functions.php:680 admin/views/settings.php:135
+msgid "Custom JavaScript"
+msgstr ""
+
+#: admin/views/feeds.php:337
+msgid "Custom Redirect"
+msgstr ""
+
+#: admin-functions.php:769
+msgid "Database error, please uninstall the plugin and install again"
+msgstr ""
+
+#: admin/views/uninstall.php:18
+msgid "Database Tables"
+msgstr ""
+
+#: admin/views/feeds.php:335
+msgid "Date"
+msgstr ""
+
+#: admin/views/uninstall.php:11
+msgid ""
+"Deactivating Instagram Feed plugin does not remove any data that may have "
+"been created. To completely remove this plugin, you can uninstall it here."
+msgstr ""
+
+#: framework/WDILibrary.php:791
+msgid "Default"
+msgstr ""
+
+#: admin/views/feeds.php:949
+msgid "Description"
+msgstr ""
+
+#: admin/views/feeds.php:453
+msgid "Discription will be shown no matter how long it is"
+msgstr ""
+
+#: admin/views/feeds.php:272
+msgid "Display media of User/Hashtag or the media I liked"
+msgstr ""
+
+#: admin/views/feeds.php:337
+msgid "Do Nothing"
+msgstr ""
+
+#: admin/views/feeds.php:337
+msgid "Do this action when user clicks on image/video in the feed"
+msgstr ""
+
+#: wd-instagram-feed.php:525 admin/views/feeds.php:175
+msgid "Do you want to delete selected items?"
+msgstr ""
+
+#: admin/views/feeds.php:167
+msgid "Duplicate"
+msgstr ""
+
+#: admin/views/feeds.php:162
+msgid "Edit"
+msgstr ""
+
+#: elementor/widget.php:79
+msgid "Edit feed"
+msgstr ""
+
+#: admin/views/feeds.php:644
+msgid "Effects are available only in premium version"
+msgstr ""
+
+#: wd-instagram-feed.php:519
+msgid "EITHER"
+msgstr ""
+
+#: admin/views/feeds.php:512
+msgid "Enable Caption Control"
+msgstr ""
+
+#: admin/views/feeds.php:517
+msgid "Enable Comments Control"
+msgstr ""
+
+#: admin/views/feeds.php:552
+msgid "Enable Conditional Filters"
+msgstr ""
+
+#: admin/views/feeds.php:511
+msgid "Enable Control Buttons"
+msgstr ""
+
+#: admin/views/feeds.php:531
+msgid "Enable Download Button"
+msgstr ""
+
+#: admin/views/feeds.php:533
+msgid "Enable Facebook button"
+msgstr ""
+
+#: admin/views/feeds.php:502
+msgid "Enable Filmstrip"
+msgstr ""
+
+#: admin/views/feeds.php:535
+msgid "Enable Google+ button"
+msgstr ""
+
+#: admin/views/WDIViewWidget.php:122
+msgid "Enable loading new images"
+msgstr ""
+
+#: admin/views/feeds.php:507
+msgid "Enable Loop"
+msgstr ""
+
+#: admin/views/feeds.php:536
+msgid "Enable Pinterest button"
+msgstr ""
+
+#: admin/views/feeds.php:537
+msgid "Enable Tumblr button"
+msgstr ""
+
+#: admin/views/feeds.php:534
+msgid "Enable Twitter button"
+msgstr ""
+
+#: admin/views/feeds.php:944
+msgid "Enter Your Condition Here..."
+msgstr ""
+
+#: frontend/shortcode.php:242
+msgid ""
+"Error: Access token session has expired, please reauthorize access token"
+msgstr ""
+
+#: wd-instagram-feed.php:521
+msgid "EXCEPT"
+msgstr ""
+
+#: admin/controllers/settings.php:163
+msgid "Failed."
+msgstr ""
+
+#: admin/views/WDIViewWidget.php:86
+msgid "Feed"
+msgstr ""
+
+#: admin/views/feeds.php:272
+msgid "Feed Media"
+msgstr ""
+
+#: admin/views/feeds.php:767
+msgid "Feed Settings"
+msgstr ""
+
+#: admin/controllers/feeds.php:276
+msgid "Feed successfully reseted"
+msgstr ""
+
+#: admin/views/feeds.php:838
+msgid "Feed Title"
+msgstr ""
+
+#: frontend/shortcode.php:54
+msgid "Feed with such ID does not exist"
+msgstr ""
+
+#: wd-instagram-feed.php:422 admin/views/feeds.php:59
+msgid "Feeds"
+msgstr ""
+
+#: admin/views/feeds.php:891
+msgid "Feeds to Filter"
+msgstr ""
+
+#: frontend/shortcode.php:250
+msgid "Field is required."
+msgstr ""
+
+#: framework/WDILibrary.php:792
+msgid "Filename"
+msgstr ""
+
+#: admin/views/feeds.php:503
+msgid "Filmstrip Thumbnail Size"
+msgstr ""
+
+#: admin/views/feeds.php:553
+msgid "Filter Logic"
+msgstr ""
+
+#: frontend/views/imagebrowser.php:44 frontend/views/imagebrowser.php:75
+#: frontend/views/thumbnails.php:41 frontend/views/thumbnails.php:80
+msgid "First Page"
+msgstr ""
+
+#: framework/WDILibrary.php:1278 frontend/shortcode.php:243
+msgid "Follow"
+msgstr ""
+
+#: admin/views/feeds.php:506
+msgid "Full Width Caption"
+msgstr ""
+
+#: admin/views/feeds.php:484
+msgid "Full width lightbox"
+msgstr ""
+
+#: elementor/widget.php:56
+msgid "General"
+msgstr ""
+
+#: wd-instagram-feed.php:764
+msgid "Getting Instagram Access Token"
+msgstr ""
+
+#: admin/views/feeds.php:947
+msgid "Hashtag"
+msgstr ""
+
+#: admin/views/feeds.php:318
+msgid "Hashtag Top/Recent"
+msgstr ""
+
+#: admin/views/feeds.php:301
+msgid "Hashtags"
+msgstr ""
+
+#: admin/views/feeds.php:385
+msgid "Header includes feed title"
+msgstr ""
+
+#: admin/views/feeds.php:51 admin/views/feeds.php:831
+msgid "Here You Can Change Feed Parameters."
+msgstr ""
+
+#: wd-instagram-feed.php:518
+msgid "Hide posts which have at least one of these conditions"
+msgstr ""
+
+#: admin/views/feeds.php:349
+msgid "How to load and display new images/videos"
+msgstr ""
+
+#: admin/views/feeds.php:779
+msgid "How To Publish Feed"
+msgstr ""
+
+#: admin/views/feeds.php:560
+msgid "How to Publish Feed"
+msgstr ""
+
+#. Author URI of the plugin
+msgid ""
+"https://10Web.io/plugins/?utm_source=instagram_feed&utm_medium=free_plugin"
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://10web.io/plugins/wordpress-instagram-feed/?"
+"utm_source=instagram_feed&utm_medium=free_plugin"
+msgstr ""
+
+#: admin/views/feeds.php:357
+msgid ""
+"If this option is enabled, both newly loaded and existing media are mixed "
+"then resorted together"
+msgstr ""
+
+#: admin/views/feeds.php:278
+#, php-format
+msgid ""
+"If you have uploaded new media to your Instagram account, please visit the "
+"%s page and click Reset Cache to refresh your Instagram feed. The feed will "
+"be automatically refreshed after 48 hours."
+msgstr ""
+
+#: wd-instagram-feed.php:782
+msgid "Image Browser"
+msgstr ""
+
+#: wd-instagram-feed.php:749
+msgid "Individual and Mixed Feeds"
+msgstr ""
+
+#: admin/views/feeds.php:349
+msgid "Infinite Scroll"
+msgstr ""
+
+#: admin/views/feeds.php:590
+msgid "Infinite Scroll option is available only in premium version"
+msgstr ""
+
+#: wd-instagram-feed.php:297 wd-instagram-feed.php:421 elementor/widget.php:27
+msgid "Instagram Feed"
+msgstr ""
+
+#: wd-instagram-feed.php:299
+#, php-format
+msgid ""
+"Instagram Feed plugin uses Instagram API on website front end. All the data "
+"received from Instagram via API is cached in WordPress database for some "
+"short period to provide front end optimization. You may request us to delete "
+"your Instagram data if it is accidentally cached in our website database "
+"with hashtag feed data. Instagram saves some cookies in browsers of website "
+"visitors via API data. These cookies are mostly used for security purposes. "
+"They are regulated under terms of Instagram’s %s."
+msgstr ""
+
+#: wd-instagram-feed.php:742
+msgid ""
+"Instagram Feed uses clean coding and latest SEO techniques necessary to keep "
+"your pages and posts SEO-optimized."
+msgstr ""
+
+#: wd-instagram-feed.php:738
+msgid ""
+"Instagram feeds are not only elegantly designed to be displayed on your "
+"website, but also come fully responsive for better user experience when "
+"using mobile devices and tables."
+msgstr ""
+
+#: admin/views/feeds.php:950
+msgid "Instagram Media Link"
+msgstr ""
+
+#: wd-instagram-feed.php:416
+msgid "Instagram Settings"
+msgstr ""
+
+#: frontend/shortcode.php:342
+msgid "Instagram token error."
+msgstr ""
+
+#: admin/controllers/WDIControllerWidget.php:17
+msgid "Instagram WD Widget"
+msgstr ""
+
+#: wd-instagram-feed.php:760
+msgid "Installation and configuration"
+msgstr ""
+
+#: frontend/shortcode.php:179
+msgid "Invalid feed type"
+msgstr ""
+
+#: wd-instagram-feed.php:512
+msgid "Invalid hashtag"
+msgstr ""
+
+#: wd-instagram-feed.php:508
+msgid "Invalid user:"
+msgstr ""
+
+#: admin/controllers/settings.php:168
+msgid "Item Succesfully is Deleted."
+msgstr ""
+
+#: frontend/views/imagebrowser.php:48 frontend/views/imagebrowser.php:79
+#: frontend/views/thumbnails.php:45 frontend/views/thumbnails.php:84
+msgid "Last Page"
+msgstr ""
+
+#: admin/views/feeds.php:490
+msgid "Lightbox autoplay"
+msgstr ""
+
+#: admin/views/feeds.php:487
+msgid "Lightbox Effect"
+msgstr ""
+
+#: admin/views/feeds.php:486
+msgid "Lightbox Height"
+msgstr ""
+
+#: wd-instagram-feed.php:786 admin/views/feeds.php:771
+msgid "Lightbox Settings"
+msgstr ""
+
+#: admin/views/feeds.php:485
+msgid "Lightbox Width"
+msgstr ""
+
+#: admin/views/feeds.php:335
+msgid "Likes"
+msgstr ""
+
+#: frontend/views/imagebrowser.php:64 frontend/views/thumbnails.php:59
+msgid "Load More"
+msgstr "Carregue mais"
+
+#: admin/views/feeds.php:349
+msgid "Load More Button"
+msgstr ""
+
+#: admin/views/feeds.php:358
+msgid "Make Layout Not Responsive"
+msgstr ""
+
+#: admin/views/feeds.php:272
+msgid "Media I liked"
+msgstr ""
+
+#: admin/views/feeds.php:948
+msgid "Mention"
+msgstr ""
+
+#: admin-functions.php:653 admin/views/settings.php:121
+msgid "Minimal role to add and manage Feeds or Themes"
+msgstr ""
+
+#: admin-functions.php:648
+msgid "Multiple Instagram accounts ?"
+msgstr ""
+
+#: wd-instagram-feed.php:390
+msgid "My Instagram Feed"
+msgstr ""
+
+#: admin/views/feeds.php:67
+msgid "Name"
+msgstr ""
+
+#: wd-instagram-feed.php:520
+msgid "NEITHER"
+msgstr ""
+
+#: frontend/shortcode.php:237
+msgid "Network error, please try again later :("
+msgstr ""
+
+#: wd-instagram-feed.php:511
+msgid "Network Error, please try again later. :("
+msgstr ""
+
+#: admin/views/feeds.php:349
+msgid "New Media Loading"
+msgstr ""
+
+#: frontend/views/imagebrowser.php:47 frontend/views/imagebrowser.php:78
+#: frontend/views/thumbnails.php:44 frontend/views/thumbnails.php:83
+msgid "Next Page"
+msgstr ""
+
+#: admin/views/feeds.php:484 admin/views/feeds.php:490
+#: admin/views/feeds.php:502 admin/views/feeds.php:505
+#: admin/views/feeds.php:506 admin/views/feeds.php:507
+#: admin/views/feeds.php:508 admin/views/feeds.php:511
+#: admin/views/feeds.php:513 admin/views/feeds.php:521
+#: admin/views/feeds.php:530 admin/views/feeds.php:531
+#: admin/views/feeds.php:532 admin/views/feeds.php:533
+#: admin/views/feeds.php:534 admin/views/feeds.php:535
+#: admin/views/feeds.php:536 admin/views/feeds.php:537
+#: admin/views/feeds.php:538 admin/views/feeds.php:552
+msgid "No"
+msgstr ""
+
+#: framework/WDILibrary.php:239
+msgid ""
+"No business pages were selected. Please uninstall the '10Web Hashtag Feed' "
+"app from 'Facebook > Settings > Security and login > Business integrations "
+"or Apps and websites' section and reinstall. Then choose the business page/s "
+"and re-connect."
+msgstr ""
+
+#: elementor/widget.php:100 frontend/shortcode.php:41
+msgid "No feed. Create and publish a feed to display it."
+msgstr ""
+
+#: admin/views/feeds.php:349
+msgid "None"
+msgstr ""
+
+#: wd-instagram-feed.php:524
+msgid "NOR"
+msgstr ""
+
+#: admin/views/feeds.php:955
+msgid ""
+"Note, that the more filters you add, the slower feed loading will be on "
+"front-end. Some filters with rare conditions may slow loading drastically."
+msgstr ""
+
+#: admin/views/feeds.php:304
+msgid ""
+"Note, that the more hashtags you add, the slower feed loading will be on "
+"front-end."
+msgstr ""
+
+#: admin/views/settings.php:142
+msgid ""
+"Note, that uninstalling Instagram Feed will completely remove all feeds and "
+"other data on the plugin. Please make sure you don't have any important "
+"information before you proceed."
+msgstr ""
+
+#: admin/views/feeds.php:350
+msgid "Number of Columns"
+msgstr ""
+
+#: admin/views/WDIViewWidget.php:97
+msgid "Number of columns"
+msgstr ""
+
+#: admin/views/WDIViewWidget.php:109
+msgid "Number of images to show"
+msgstr ""
+
+#: admin/views/feeds.php:353
+msgid "Number of images to show on each pagination page"
+msgstr ""
+
+#: admin/views/feeds.php:351
+msgid "Number of Images/Videos"
+msgstr ""
+
+#: admin/views/feeds.php:351
+msgid "Number of images/videos to show when feed is loaded first time"
+msgstr ""
+
+#: admin/views/feeds.php:355
+msgid "Number of Media for Initial Preload"
+msgstr ""
+
+#: admin/views/feeds.php:356
+msgid "Number of Media for Pagination Preload"
+msgstr ""
+
+#: admin/views/feeds.php:353
+msgid "Number of Media Per Page"
+msgstr ""
+
+#: admin/views/feeds.php:352
+msgid "Number of New Media"
+msgstr ""
+
+#: admin/views/feeds.php:352
+msgid ""
+"Number of new media added to the feed, when user clicks on load more button "
+"or triggers infinite scroll"
+msgstr ""
+
+#: admin/views/feeds.php:504
+msgid "On Hover"
+msgstr ""
+
+#: admin/views/feeds.php:337
+msgid "Open Lightbox"
+msgstr ""
+
+#: admin/views/uninstall.php:24
+msgid "Options From"
+msgstr ""
+
+#: wd-instagram-feed.php:523
+msgid "OR"
+msgstr ""
+
+#: framework/WDILibrary.php:789
+msgid "Order by: "
+msgstr ""
+
+#: admin/views/feeds.php:354
+msgid "Pages To Preload"
+msgstr ""
+
+#: admin/views/feeds.php:349
+msgid "Pagination"
+msgstr ""
+
+#: admin/views/settings.php:224
+msgid "Personal"
+msgstr ""
+
+#: admin/views/feeds.php:105
+msgid "PHP function"
+msgstr ""
+
+#: frontend/shortcode.php:128
+msgid "Please check your feed, the data was entered incorrectly."
+msgstr ""
+
+#: admin/views/feeds.php:902
+msgid ""
+"Please note that only already retrieved media is filtered. There is also "
+"internal limit of 10 requests (200 images) to Instagram API. If no media "
+"satisfies filter condition, the plugin will not ask for more."
+msgstr ""
+
+#: wd-instagram-feed.php:515
+msgid "Please Select Condition Type"
+msgstr ""
+
+#: wd-instagram-feed.php:528
+msgid "Please write hashtag."
+msgstr ""
+
+#: admin/views/feeds.php:354
+msgid "Preload all the media of several first pages"
+msgstr ""
+
+#: framework/WDI_admin_view.php:724 admin/views/feeds.php:179
+#: admin/views/feeds.php:842
+msgid "Preview"
+msgstr ""
+
+#: frontend/views/imagebrowser.php:45 frontend/views/imagebrowser.php:76
+#: frontend/views/thumbnails.php:42 frontend/views/thumbnails.php:81
+msgid "Previous Page"
+msgstr ""
+
+#: admin-functions.php:590
+msgid "Primary Access Token"
+msgstr ""
+
+#: admin-functions.php:600
+msgid "Primary Username"
+msgstr ""
+
+#: wd-instagram-feed.php:298
+msgid "Privacy Policy"
+msgstr ""
+
+#: admin/views/feeds.php:508
+msgid "Protect lightbox images from downloading"
+msgstr ""
+
+#: frontend/shortcode.php:240
+msgid "Provided feed users are invalid or obsolete for this version of plugin"
+msgstr ""
+
+#: admin/views/feeds.php:171 admin/views/feeds.php:789
+msgid "Publish"
+msgstr ""
+
+#: wd-instagram-feed.php:804
+msgid "Publishing as a Widget"
+msgstr ""
+
+#: wd-instagram-feed.php:808
+msgid "Publishing by PHP function"
+msgstr ""
+
+#: wd-instagram-feed.php:800
+msgid "Publishing in a Page/Post"
+msgstr ""
+
+#: wd-instagram-feed.php:796
+msgid "Publishing Instagram Feed"
+msgstr ""
+
+#: framework/WDILibrary.php:794 admin/views/feeds.php:335
+msgid "Random"
+msgstr ""
+
+#: admin/views/settings.php:41 admin/views/feeds.php:53
+#: admin/views/feeds.php:832
+msgid "Read More in User Guide"
+msgstr ""
+
+#: admin/views/feeds.php:321
+msgid "Recent"
+msgstr ""
+
+#: admin/views/feeds.php:337
+msgid "Redirect To Instagram"
+msgstr ""
+
+#: admin/views/feeds.php:338
+msgid "Redirect URL"
+msgstr ""
+
+#: admin/views/settings.php:89
+msgid "Refresh"
+msgstr ""
+
+#: admin/views/settings.php:88
+msgid "Refresh Access Token"
+msgstr ""
+
+#: admin/views/settings.php:70 admin/views/settings.php:93
+msgid "Remove"
+msgstr ""
+
+#: framework/WDILibrary.php:743
+msgid "Reset"
+msgstr ""
+
+#: admin/views/settings.php:118
+msgid "Reset cache"
+msgstr ""
+
+#: admin/views/settings.php:117
+msgid "Reset cache with Instagram data"
+msgstr ""
+
+#: wd-instagram-feed.php:737
+msgid "Responsive"
+msgstr ""
+
+#: admin/views/feeds.php:964
+msgid "Result"
+msgstr ""
+
+#: admin/views/feeds.php:508
+msgid "Right Click Protection"
+msgstr ""
+
+#: framework/WDILibrary.php:315 framework/WDILibrary.php:746
+msgid "Search"
+msgstr ""
+
+#: framework/WDI_form_builder.php:216
+msgid "Select"
+msgstr ""
+
+#: elementor/widget.php:77
+msgid "Select Feed"
+msgstr ""
+
+#: admin/views/WDIViewEditorShortcode.php:79
+msgid "Select Feed:"
+msgstr ""
+
+#: elementor/widget.php:79
+msgid "Select the feed to display."
+msgstr ""
+
+#: wd-instagram-feed.php:741
+msgid "SEO Friendly"
+msgstr ""
+
+#: admin-functions.php:709 admin/views/settings.php:108
+msgid "Set Maximum Count of Cache Requests"
+msgstr ""
+
+#: wd-instagram-feed.php:424 admin/views/settings.php:48
+#: admin/views/feeds.php:261
+msgid "Settings"
+msgstr ""
+
+#: admin/views/feeds.php:104
+msgid "Shortcode"
+msgstr ""
+
+#: admin/views/feeds.php:439
+msgid "Show \"Follow On Instagram\" button"
+msgstr ""
+
+#: admin/views/WDIViewWidget.php:114
+msgid "Show Description"
+msgstr ""
+
+#: admin/views/feeds.php:385
+msgid "Show Feed Header"
+msgstr ""
+
+#: admin/views/feeds.php:453
+msgid "Show Full Description"
+msgstr ""
+
+#: admin/views/feeds.php:513
+msgid "Show Fullscreen Control Button"
+msgstr ""
+
+#: admin/views/feeds.php:538
+msgid "Show Images Count"
+msgstr ""
+
+#: admin/views/WDIViewWidget.php:118
+msgid "Show likes and comments"
+msgstr ""
+
+#: admin/views/feeds.php:452
+msgid "Show Media Caption"
+msgstr ""
+
+#: admin/views/feeds.php:183
+msgid "Show more details"
+msgstr ""
+
+#: admin/views/feeds.php:504
+msgid "Show Next / Previous Buttons"
+msgstr ""
+
+#: admin/views/feeds.php:469
+msgid "Show Number of Comments"
+msgstr ""
+
+#: admin/views/feeds.php:456
+msgid "Show Number of Likes"
+msgstr ""
+
+#: wd-instagram-feed.php:516
+msgid "Show posts which have all of these conditions"
+msgstr ""
+
+#: wd-instagram-feed.php:517
+msgid "Show posts which have at least one of these conditions"
+msgstr ""
+
+#: admin/views/feeds.php:532
+msgid "Show Share Buttons"
+msgstr ""
+
+#: admin/views/feeds.php:423
+msgid "Show User Bio and Website"
+msgstr ""
+
+#: admin/views/feeds.php:388
+msgid "Show User Data"
+msgstr ""
+
+#: admin/views/feeds.php:407
+msgid "Show User Posts and Followers count"
+msgstr ""
+
+#: admin/views/feeds.php:470
+msgid "Show Username On Image Thumb"
+msgstr ""
+
+#: admin/controllers/WDIControllerWidget.php:12
+msgid "Show your instagram feeds in your widget area"
+msgstr ""
+
+#: framework/WDILibrary.php:793
+msgid "Size"
+msgstr ""
+
+#: wd-instagram-feed.php:507
+msgid "Some error with instagram servers, try agian later :("
+msgstr ""
+
+#: frontend/shortcode.php:341
+msgid "Something is wrong."
+msgstr ""
+
+#: frontend/shortcode.php:348
+msgid ""
+"Something is wrong. Response takes too long or there is JS error. Press "
+"Ctrl+Shift+J or Cmd+Shift+J on a Mac to see error in console or ask for <a "
+"class='wdi_error_link' href='https://wordpress.org/support/plugin/wd-"
+"instagram-feed' target='_blank'>free support</a>."
+msgstr ""
+
+#: admin/views/feeds.php:335
+msgid "Sort Media By"
+msgstr ""
+
+#: admin/views/feeds.php:336
+msgid "Sorting Order"
+msgstr ""
+
+#: admin/views/feeds.php:374
+msgid "Styling theme of the feed. You can create themes in themes menu"
+msgstr ""
+
+#: wd-instagram-feed.php:814
+msgid "Styling with Themes"
+msgstr ""
+
+#: admin-functions.php:22
+msgid "Succesfully Uninstalled!"
+msgstr ""
+
+#: admin/controllers/feeds.php:194
+msgid "Successfully saved"
+msgstr ""
+
+#: admin/views/uninstall.php:15
+msgid "The following Database Tables will be deleted:"
+msgstr ""
+
+#: wd-instagram-feed.php:734
+msgid ""
+"The most advanced and user-friendly Instagram plugin. Instagram Feed plugin "
+"allows you to display image feeds from single or multiple Instagram accounts "
+"on a WordPress site."
+msgstr ""
+
+#: frontend/shortcode.php:352
+msgid "Their media won't be displayed."
+msgstr ""
+
+#: admin/views/feeds.php:371
+msgid "Theme"
+msgstr ""
+
+#: wd-instagram-feed.php:423
+msgid "Themes"
+msgstr ""
+
+#: wd-instagram-feed.php:746
+msgid ""
+"There are four layout options for Instagram feeds: Thumbnails, Image Browser,"
+" Blog Style and Masonry. Display a feed as a simply arranged thumbnails with "
+"captions. Use Masonry layout to create a beautiful combination of images and "
+"captions. Create a blog feed by simply sharing Instagram posts with captions "
+"using blog style layout. Image browser layout saves space, yet allows to "
+"display larger images. In addition users can choose the number of the "
+"displayed images, layout columns, image order and etc."
+msgstr ""
+
+#: frontend/shortcode.php:252
+msgid "There are no images matching your search."
+msgstr ""
+
+#: frontend/shortcode.php:238
+msgid "There is no data for that hashtag"
+msgstr ""
+
+#: frontend/shortcode.php:241
+msgid "There is no media in this feed"
+msgstr ""
+
+#: admin/views/feeds.php:598 admin/views/feeds.php:606
+#: admin/views/feeds.php:614 admin/views/feeds.php:622
+#: admin/views/feeds.php:655 admin/views/feeds.php:666
+#: admin/views/feeds.php:677 admin/views/feeds.php:689
+#: admin/views/feeds.php:700 admin/views/feeds.php:712
+msgid "This feature is available only in premium version"
+msgstr ""
+
+#: wd-instagram-feed.php:513
+msgid ""
+"This hashtag has no media published within last 24 hours. Are you sure you "
+"want to add it? Try to display its top media."
+msgstr ""
+
+#: admin/views/feeds.php:579
+msgid ""
+"This is free version, Conditional filters are available only in premium "
+"version"
+msgstr ""
+
+#: admin/views/themes.php:9
+msgid ""
+"This is free version, Customizing themes is available only in premium version"
+msgstr ""
+
+#: frontend/shortcode.php:251
+msgid "This is not a valid email address."
+msgstr ""
+
+#: admin/views/settings.php:39
+msgid "This section allows you to set API parameters."
+msgstr ""
+
+#: admin/views/settings.php:52
+msgid ""
+"This will not show your Instagram media. After that you may create your feed."
+msgstr ""
+
+#: wd-instagram-feed.php:774
+msgid "Thumbnails and Masonry Layouts"
+msgstr ""
+
+#: admin/views/feeds.php:101 admin/views/WDIViewWidget.php:82
+msgid "Title"
+msgstr ""
+
+#: wd-instagram-feed.php:527
+msgid "Title field is required."
+msgstr ""
+
+#: admin/views/settings.php:79 admin/views/settings.php:85
+msgid "To copy, click the field then press Ctrl + C (PC) or Cmd + C (Mac)."
+msgstr ""
+
+#: admin/views/feeds.php:322
+msgid "Top"
+msgstr ""
+
+#: frontend/shortcode.php:59
+msgid "Unable to display unpublished feed "
+msgstr ""
+
+#: wd-instagram-feed.php:417 wd-instagram-feed.php:425
+#: wd-instagram-feed.php:425 admin-functions.php:700
+#: admin/views/settings.php:139 admin/views/settings.php:141
+#: admin/views/uninstall.php:50
+msgid "Uninstall"
+msgstr ""
+
+#: admin/views/uninstall.php:9
+msgid "Uninstalling Instagram Feed"
+msgstr ""
+
+#: admin/views/feeds.php:171
+msgid "Unpublish"
+msgstr ""
+
+#: admin/views/feeds.php:153
+msgid "Unpublished"
+msgstr ""
+
+#: admin/views/feeds.php:793
+msgid "Update"
+msgstr ""
+
+#: wd-instagram-feed.php:754
+msgid ""
+"Upon clicking on image thumbnails an elegant lightbox will be opened, where "
+"you will find control buttons for displaying images in larger view, read "
+"image comments, captions, view image metadata and easily navigate between "
+"images. Lightbox can serve as a slider with various stunning slide "
+"transition effects. If the feed contains video, the video will be played "
+"within the lightbox as an HTML5 video."
+msgstr ""
+
+#: wd-instagram-feed.php:514
+msgid "URL is not valid"
+msgstr ""
+
+#: admin/views/settings.php:233
+msgid ""
+"Used for displaying user feeds and <span>hashtags</span><br "
+"class=\"wdi_desktop\"> from a “Business” Instagram account."
+msgstr ""
+
+#: admin/views/settings.php:226
+msgid ""
+"Used for displaying user feeds from a \"Personal\"<br class=\"wdi_desktop\"> "
+"Instagram account."
+msgstr ""
+
+#: wd-instagram-feed.php:510
+#, php-format
+msgid "User %s does not exist."
+msgstr ""
+
+#: admin/views/feeds.php:425
+msgid "User bio will be displayed if feed has only one user"
+msgstr ""
+
+#: admin/views/settings.php:76
+msgid "User ID:"
+msgstr ""
+
+#: frontend/shortcode.php:236
+msgid "Username not found"
+msgstr ""
+
+#: admin/views/feeds.php:272
+msgid "Username/Hashtag"
+msgstr ""
+
+#: admin/views/feeds.php:276
+msgid "Users"
+msgstr ""
+
+#: frontend/shortcode.php:355
+msgid ""
+"Warning: Instagram Feed is loaded using AJAX request. It might not display "
+"properly."
+msgstr ""
+
+#: admin/views/uninstall.php:13
+msgid ""
+"WARNING: Once uninstalled, this can't be undone. You should use a Database "
+"Backup plugin of WordPress to back up all the data first."
+msgstr ""
+
+#: admin/views/feeds.php:358
+msgid ""
+"When checked, layout does not become single-column on mobile. Columns number "
+"stays the same"
+msgstr ""
+
+#: admin/views/feeds.php:954
+msgid ""
+"Write your condition, select condition type and click on Add Condition. You "
+"can add as many conditions as you want. You can add different condition "
+"types mixed together as well."
+msgstr ""
+
+#: admin/views/uninstall.php:45 admin/views/feeds.php:484
+#: admin/views/feeds.php:490 admin/views/feeds.php:502
+#: admin/views/feeds.php:505 admin/views/feeds.php:506
+#: admin/views/feeds.php:507 admin/views/feeds.php:508
+#: admin/views/feeds.php:511 admin/views/feeds.php:513
+#: admin/views/feeds.php:520 admin/views/feeds.php:530
+#: admin/views/feeds.php:531 admin/views/feeds.php:532
+#: admin/views/feeds.php:533 admin/views/feeds.php:534
+#: admin/views/feeds.php:535 admin/views/feeds.php:536
+#: admin/views/feeds.php:537 admin/views/feeds.php:538
+#: admin/views/feeds.php:552
+msgid "Yes"
+msgstr ""
+
+#: wd-instagram-feed.php:529
+msgid "You can add only hashtags."
+msgstr ""
+
+#: admin/controllers/feeds.php:191 admin/controllers/feeds.php:272
+msgid "You have not made new changes"
+msgstr ""
+
+#: wd-instagram-feed.php:526
+msgid "You have not selected a user, the user field is required."
+msgstr ""
+
+#: admin/views/settings.php:51
+msgid ""
+"You need Access Token for using Instagram API. Click sign in with Instagram "
+"button above to get yours."
+msgstr ""
