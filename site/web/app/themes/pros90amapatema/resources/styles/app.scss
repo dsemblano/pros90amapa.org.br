@@ -480,3 +480,10 @@ ul.wp-block-social-links {
 .shareaholic-share-buttons-container {
   padding-top: 1.5rem;
 }
+
+a.shareaholic-recommendation-article-link {
+  @apply pros90lightblue;
+  
+  text-decoration: none;
+  font-size: 1rem;
+}
