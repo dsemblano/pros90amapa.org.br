@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3d224c44de79b7b738596f708296db82",
+    "content-hash": "02fcb4588a9826e5993451b246192529",
     "packages": [
         {
             "name": "brick/math",
@@ -2368,16 +2368,16 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "6.0",
+            "version": "6.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/wordpress.git",
-                "reference": "dd8ece73954fd90f891d98fa5c2c5ace000fe50d"
+                "reference": "41ff6e23ccbc3a1691406d69fe8c211a225514e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roots/wordpress/zipball/dd8ece73954fd90f891d98fa5c2c5ace000fe50d",
-                "reference": "dd8ece73954fd90f891d98fa5c2c5ace000fe50d",
+                "url": "https://api.github.com/repos/roots/wordpress/zipball/41ff6e23ccbc3a1691406d69fe8c211a225514e2",
+                "reference": "41ff6e23ccbc3a1691406d69fe8c211a225514e2",
                 "shasum": ""
             },
             "require": {
@@ -2386,10 +2386,20 @@
             },
             "type": "metapackage",
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "GPL-2.0-or-later"
+            ],
             "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
+            "homepage": "https://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
             "support": {
                 "issues": "https://github.com/roots/wordpress/issues",
-                "source": "https://github.com/roots/wordpress/tree/6.0"
+                "source": "https://github.com/roots/wordpress/tree/6.0.1"
             },
             "funding": [
                 {
@@ -2401,7 +2411,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-05-23T20:05:44+00:00"
+            "time": "2022-06-01T16:54:37+00:00"
         },
         {
             "name": "roots/wordpress-core-installer",
@@ -2476,22 +2486,22 @@
         },
         {
             "name": "roots/wordpress-no-content",
-            "version": "6.0",
+            "version": "6.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/roots/wordpress-no-content.git",
-                "reference": "e835336a33b10ce4d738e75668ecd4bc480550ef"
+                "url": "https://github.com/WordPress/WordPress.git",
+                "reference": "6.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-6.0-no-content.zip",
-                "shasum": "6cc5252995f7a7c6060216286ddaacba445acd61"
+                "url": "https://downloads.wordpress.org/release/wordpress-6.0.1-no-content.zip",
+                "shasum": "bd78fc2bea7f04683218c679f9e6b606eedf23bc"
             },
             "require": {
                 "php": ">= 5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "6.0"
+                "wordpress/core-implementation": "6.0.1"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -2542,7 +2552,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2022-05-24T19:14:34+00:00"
+            "time": "2022-07-12T16:30:11+00:00"
         },
         {
             "name": "roots/wp-config",
@@ -4838,24 +4848,6 @@
             "homepage": "https://wordpress.org/plugins/block-navigation/"
         },
         {
-            "name": "wpackagist-plugin/cc-child-pages",
-            "version": "1.40",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/cc-child-pages/",
-                "reference": "tags/1.40"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cc-child-pages.1.40.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/cc-child-pages/"
-        },
-        {
             "name": "wpackagist-plugin/cf7-cep-autofill",
             "version": "1.0.8",
             "source": {
@@ -4964,24 +4956,6 @@
             "homepage": "https://wordpress.org/plugins/loco-translate/"
         },
         {
-            "name": "wpackagist-plugin/mobile-menu",
-            "version": "2.8.2.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/mobile-menu/",
-                "reference": "tags/2.8.2.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mobile-menu.2.8.2.7.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/mobile-menu/"
-        },
-        {
             "name": "wpackagist-plugin/photo-gallery",
             "version": "1.6.10",
             "source": {
@@ -5070,24 +5044,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/shareaholic/"
-        },
-        {
-            "name": "wpackagist-plugin/social-pug",
-            "version": "1.20.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/social-pug/",
-                "reference": "tags/1.20.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/social-pug.1.20.2.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/social-pug/"
         },
         {
             "name": "wpackagist-plugin/wayfinder",
@@ -5187,12 +5143,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "bc4d989050885c9c2138e0da74519efaad597076"
+                "reference": "142c350dd23588666546a92de0d4cd4cafdad2c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/bc4d989050885c9c2138e0da74519efaad597076",
-                "reference": "bc4d989050885c9c2138e0da74519efaad597076",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/142c350dd23588666546a92de0d4cd4cafdad2c5",
+                "reference": "142c350dd23588666546a92de0d4cd4cafdad2c5",
                 "shasum": ""
             },
             "conflict": {
@@ -5254,7 +5210,7 @@
                 "contao/managed-edition": "<=1.5",
                 "craftcms/cms": "<3.7.36",
                 "croogo/croogo": "<3.0.7",
-                "cuyz/valinor": ">=0.5,<0.7",
+                "cuyz/valinor": "<0.12",
                 "czproject/git-php": "<4.0.3",
                 "darylldoyle/safe-svg": "<1.9.10",
                 "datadog/dd-trace": ">=0.30,<0.30.2",
@@ -5351,6 +5307,7 @@
                 "illuminate/view": "<6.20.42|>=7,<7.30.6|>=8,<8.75",
                 "impresscms/impresscms": "<=1.4.3",
                 "in2code/femanager": "<5.5.1|>=6,<6.3.1",
+                "in2code/lux": "<17.6.1|>=18,<24.0.2",
                 "intelliants/subrion": "<=4.2.1",
                 "ivankristianto/phpwhois": "<=4.3",
                 "jackalope/jackalope-doctrine-dbal": "<1.7.4",
@@ -5578,7 +5535,7 @@
                 "thinkcmf/thinkcmf": "<=5.1.7",
                 "tinymce/tinymce": "<5.10",
                 "titon/framework": ">=0,<9.9.99",
-                "topthink/framework": "<6.0.12",
+                "topthink/framework": "<=6.0.12",
                 "topthink/think": "<=6.0.9",
                 "topthink/thinkphp": "<=3.2.3",
                 "tribalsystems/zenario": "<9.2.55826",
@@ -5685,7 +5642,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-06T08:13:54+00:00"
+            "time": "2022-07-12T23:04:17+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
