@@ -57,7 +57,6 @@
     "wpackagist-plugin/cf7-cep-autofill":">=1.0.8",
     "wpackagist-plugin/contact-form-cfdb7":">=1.2.6.4",
     "wpackagist-plugin/ewww-image-optimizer":">=6.6.0",
-    "wpackagist-plugin/related-posts-thumbnails":">=2.0.3",
     "wpackagist-plugin/shareaholic":">=9.7.6",
     "roots/acorn": "^2.0"
   },
