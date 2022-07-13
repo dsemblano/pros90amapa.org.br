@@ -2,6 +2,12 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+// Variables must reflect tailwind.config.js
+$pros90orange: '#F6913A';
+$pros90blue: '#001D3D';
+$pros90lightblue: '#263C76';
+$pros90gray: '#F4F4F4';
+
 // Mixins
 %imgeffect {
   -webkit-transform:scale(1);
@@ -488,9 +494,11 @@ ul.wp-block-social-links {
 .shareaholic-recommendation-article-title {
   text-decoration: none;
   font-size: 1rem !important;
+  color: $pros90lightblue;
 
   &:hover {
     text-decoration: underline;
+    filter: brightness(85%);
   }
 }
 
