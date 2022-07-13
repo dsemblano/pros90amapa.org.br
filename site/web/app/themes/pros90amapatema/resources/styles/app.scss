@@ -477,13 +477,24 @@ ul.wp-block-social-links {
   display: none;
 }
 
+.shareaholic-post-share-thanks .shareaholic-post-share-footer a {
+  display: none !important;
+}
+
 .shareaholic-share-buttons-container {
   padding-top: 1.5rem;
 }
 
-.shareaholic-recommendation-article-details {
-  @apply pros90lightblue;
-
+.shareaholic-recommendation-article-title {
   text-decoration: none;
+  font-size: 1rem !important;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Página notícias
+.single .wp-block-column {
   font-size: 1rem;
 }
