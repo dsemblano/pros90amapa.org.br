@@ -58,6 +58,7 @@
     "wpackagist-plugin/contact-form-cfdb7":">=1.2.6.4",
     "wpackagist-plugin/ewww-image-optimizer":">=6.6.0",
     "wpackagist-plugin/shareaholic":">=9.7.6",
+    "wpackagist-plugin/open-external-links-in-a-new-window":">=1.43",
     "roots/acorn": "^2.0"
   },
   "require-dev": {
