@@ -1,6 +1,6 @@
 <section class="section1 flex flex-wrap w-full flex-col md:flex-row items-center border-bs container">
     <div class="flex flex-col w-full justify-center items-start text-center md:text-left">
-      <h1 class="my-4 text-8xl font-bold leading-none text-pros90lightblue animated animatedFadeInUp fadeInUp">PROS Amapá</h1>
+      <h1 class="mb-4 text-8xl font-bold leading-none text-pros90lightblue animated animatedFadeInUp fadeInUp">PROS Amapá</h1>
       <article class="mb-4 lg:mb-9 prose lg:prose-2xl prose-a:text-blue-800 prose-a:no-underline hover:prose-a:text-blue-500 hover:prose-a:underline animated animatedFadeInUp fadeInUp">
         <h2>
           Partido Republicano da Ordem Social<br>PROS AP
