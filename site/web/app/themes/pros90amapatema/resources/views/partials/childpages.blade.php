@@ -1,6 +1,6 @@
 <div class="noticias w-full">
     <?php echo do_shortcode( '[flexy_breadcrumb]'); ?> 
-    <div class="page-header text-center container my-8 lg:mt-12 lg:mb-8 prose lg:prose-2xl  prose-a:text-blue-600 hover:prose-a:text-blue-500">
+    <div class="page-header text-center container my-8 lg:mt-12 lg:mb-8 prose lg:prose-2xl  prose-a:text-blue-800 prose-a:no-underline hover:prose-a:text-blue-500 hover:prose-a:underline">
         <h1 class="text-pros90lightblue animated animatedFadeInUp fadeInUp">Pré-Canditados 2022</h1>
     </div>
     <div class="flex flex-wrap">
