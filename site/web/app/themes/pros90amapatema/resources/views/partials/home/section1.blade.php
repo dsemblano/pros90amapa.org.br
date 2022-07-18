@@ -2,7 +2,13 @@
     <div class="flex flex-col w-full justify-center items-start text-center md:text-left">
       <h1 class="my-4 text-8xl font-bold leading-tight text-pros90lightblue animated animatedFadeInUp fadeInUp">PROS Amapá</h1>
       <p class="leading-none text-xl mb-8 animated animatedFadeInUp fadeInUp">
-        PROS Amapá - Partido Republicano da Ordem Social - PROS AP
+        PROS Amapá - Partido Republicano da Ordem Social - PROS AP. 
+      </p>
+      <p class="leading-none text-xl mb-8 animated animatedFadeInUp fadeInUp">
+        Sede do partido: Av. Henrique Galúcio 1081, Bairro Central, Macapá AP.
+      </p>
+      <p class="leading-none text-xl mb-8 animated animatedFadeInUp fadeInUp">
+        Toda grande jornada sempre começa com passos firmes!
       </p>
       <div class="social lg:block w-full">
         <div class="mb-6 flex flex-col fill-pros90blue">
