@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 10Web Social Photo Feed\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-12 12:15+0000\n"
-"PO-Revision-Date: 2022-07-19 19:06+0000\n"
+"PO-Revision-Date: 2022-07-12 12:16+0000\n"
 "Last-Translator: \n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.6.2; wp-6.0.1\n"
+"X-Loco-Version: 2.6.2; wp-6.0\n"
 "X-Domain: wd-instagram-feed"
 
 #: admin/views/settings.php:63
@@ -438,7 +438,7 @@ msgstr ""
 
 #: framework/WDILibrary.php:1278 frontend/shortcode.php:243
 msgid "Follow"
-msgstr "Siga-nos no Instagram!"
+msgstr ""
 
 #: admin/views/feeds.php:506
 msgid "Full Width Caption"
