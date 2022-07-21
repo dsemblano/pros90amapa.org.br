@@ -365,7 +365,7 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v8.83.19",
+            "version": "v8.83.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -418,7 +418,7 @@
         },
         {
             "name": "illuminate/cache",
-            "version": "v8.83.19",
+            "version": "v8.83.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
@@ -478,7 +478,7 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v8.83.19",
+            "version": "v8.83.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
@@ -532,7 +532,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v8.83.19",
+            "version": "v8.83.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -580,7 +580,7 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v8.83.19",
+            "version": "v8.83.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
@@ -640,7 +640,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v8.83.19",
+            "version": "v8.83.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -691,7 +691,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v8.83.19",
+            "version": "v8.83.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -739,7 +739,7 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v8.83.19",
+            "version": "v8.83.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -794,7 +794,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v8.83.19",
+            "version": "v8.83.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -856,7 +856,7 @@
         },
         {
             "name": "illuminate/http",
-            "version": "v8.83.19",
+            "version": "v8.83.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/http.git",
@@ -914,7 +914,7 @@
         },
         {
             "name": "illuminate/log",
-            "version": "v8.83.19",
+            "version": "v8.83.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/log.git",
@@ -963,7 +963,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v8.83.19",
+            "version": "v8.83.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -1009,7 +1009,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v8.83.19",
+            "version": "v8.83.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -1057,7 +1057,7 @@
         },
         {
             "name": "illuminate/session",
-            "version": "v8.83.19",
+            "version": "v8.83.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/session.git",
@@ -1113,7 +1113,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v8.83.19",
+            "version": "v8.83.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -1181,7 +1181,7 @@
         },
         {
             "name": "illuminate/view",
-            "version": "v8.83.19",
+            "version": "v8.83.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
@@ -2089,16 +2089,16 @@
         },
         {
             "name": "roots/acorn",
-            "version": "v2.1.1",
+            "version": "v2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/acorn.git",
-                "reference": "0d68d0fbd2d61a3141d277ef588bd53c7a2cf5e0"
+                "reference": "82649f7b8b4916da7fb63b202b4e3c8024178dbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roots/acorn/zipball/0d68d0fbd2d61a3141d277ef588bd53c7a2cf5e0",
-                "reference": "0d68d0fbd2d61a3141d277ef588bd53c7a2cf5e0",
+                "url": "https://api.github.com/repos/roots/acorn/zipball/82649f7b8b4916da7fb63b202b4e3c8024178dbd",
+                "reference": "82649f7b8b4916da7fb63b202b4e3c8024178dbd",
                 "shasum": ""
             },
             "require": {
@@ -2173,7 +2173,7 @@
             "support": {
                 "forum": "https://discourse.roots.io/",
                 "issues": "https://github.com/roots/acorn/issues",
-                "source": "https://github.com/roots/acorn/tree/v2.1.1"
+                "source": "https://github.com/roots/acorn/tree/v2.1.2"
             },
             "funding": [
                 {
@@ -2185,7 +2185,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-07-10T17:51:21+00:00"
+            "time": "2022-07-17T19:11:26+00:00"
         },
         {
             "name": "roots/bedrock-autoloader",
@@ -4867,15 +4867,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "5.6",
+            "version": "5.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/5.6"
+                "reference": "tags/5.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.6.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4993,15 +4993,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "5.2.3",
+            "version": "5.3.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.2.3"
+                "reference": "tags/5.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.2.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.3.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5143,12 +5143,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "6ff8fce90e1e72ca430f4792acff59cad9d7f9cc"
+                "reference": "0144c1225b5e4da02cf2c27a0e2cb2705168c47c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/6ff8fce90e1e72ca430f4792acff59cad9d7f9cc",
-                "reference": "6ff8fce90e1e72ca430f4792acff59cad9d7f9cc",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/0144c1225b5e4da02cf2c27a0e2cb2705168c47c",
+                "reference": "0144c1225b5e4da02cf2c27a0e2cb2705168c47c",
                 "shasum": ""
             },
             "conflict": {
@@ -5566,6 +5566,7 @@
                 "webcoast/deferred-image-processing": "<1.0.2",
                 "wikimedia/parsoid": "<0.12.2",
                 "willdurand/js-translation-bundle": "<2.1.1",
+                "wintercms/winter": "<1.0.475|>=1.1,<1.1.9",
                 "wp-cli/wp-cli": "<2.5",
                 "wp-graphql/wp-graphql": "<0.3.5",
                 "wpanel/wpanel4-cms": "<=4.3.1",
@@ -5645,7 +5646,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-15T21:04:20+00:00"
+            "time": "2022-07-15T22:04:13+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
