@@ -14,7 +14,7 @@
                         @if ( has_post_thumbnail() )
                         {{ the_post_thumbnail('post-thumbnail', ['class' => 'lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72 w-full object-cover object-center', 'title' => 'Feature image']); }}
                         @else
-                        <img class="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72 w-full object-cover object-center"
+                        <img class="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72 w-full object-cover object-center" alt="Imagem destacada matéria de notícias"
                             src="@asset('images/default.png')" alt="<?php the_title(); ?>">
                         @endif
                     </a>

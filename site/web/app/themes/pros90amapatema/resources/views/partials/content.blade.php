@@ -5,7 +5,7 @@
       @if ( has_post_thumbnail() )
         {{ the_post_thumbnail('post-thumbnail', ['class' => 'lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72   w-full object-cover object-center mb-6', 'title' => 'Feature image']); }}
         @else
-        <img class="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72   w-full object-cover object-center mb-6" src="@asset('images/default.png')"  alt="{!! $title !!}">
+        <img class="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72   w-full object-cover object-center mb-6" alt="Imagem destacada páginas" src="@asset('images/default.png')"  alt="{!! $title !!}">
       @endif
       </a>
     </figure>
