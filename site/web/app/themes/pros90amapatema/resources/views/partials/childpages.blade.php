@@ -1,7 +1,7 @@
 <div class="noticias w-full">
     <?php echo do_shortcode( '[flexy_breadcrumb]'); ?> 
     <div class="page-header text-center container my-8 lg:mt-12 lg:mb-8 prose lg:prose-2xl  prose-a:text-blue-800 prose-a:no-underline hover:prose-a:text-blue-500 hover:prose-a:underline">
-        <h1 class="text-pros90lightblue animated animatedFadeInUp fadeInUp">Pré-Canditados 2022</h1>
+        <h1 class="text-pros90lightblue animated animatedFadeInUp fadeInUp">Canditados 2022</h1>
     </div>
     <div class="flex flex-wrap">
     <?php
@@ -10,7 +10,7 @@
         
 
         // Get the page as an Object
-        $portfolio =  get_page_by_path('pre-candidatos-2022');
+        $portfolio =  get_page_by_path('candidatos-2022');
         
         // Filter through all pages and find Portfolio's children
         $portfolio_children = get_page_children( $portfolio->ID, $all_wp_pages );
