@@ -197,12 +197,19 @@ section.social.block {
 }
 
 // Instagram
-.wdi_feed_main_container {
-  margin-top: 4rem;
-}
+// .wdi_feed_main_container {
+//   margin-top: 4rem;
+// }
 
-.wdi_feed_container {
-  @extend %shadowSmooth;
+// .wdi_feed_container {
+//   @extend %shadowSmooth;
+// }
+
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {
+  div#sb_instagram {
+    margin-top: 5rem;
+  }  
 }
 
 // Articles
