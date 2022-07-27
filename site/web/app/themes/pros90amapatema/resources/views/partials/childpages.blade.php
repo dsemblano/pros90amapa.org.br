@@ -3,7 +3,7 @@
     <div class="page-header text-center container my-8 lg:mt-12 lg:mb-8 prose lg:prose-2xl  prose-a:text-blue-800 prose-a:no-underline hover:prose-a:text-blue-500 hover:prose-a:underline">
         <h1 class="text-pros90lightblue animated animatedFadeInUp fadeInUp">Candidatos ao PROS AP em 2022</h1>
     </div>
-    <p class="lg:mb-8 prose lg:prose-2xl container">Conheça nossos candidatos que irão concorrer a uma vaga para deputado estadual na Assembléia Legislativa:</p>
+    <p class="lg:mb-8 prose lg:prose-2xl whitespace-nowrap">Conheça nossos candidatos que irão concorrer a uma vaga para deputado estadual na Assembléia Legislativa:</p>
     <div class="flex flex-wrap">
     <?php
         $my_wp_query = new WP_Query();
