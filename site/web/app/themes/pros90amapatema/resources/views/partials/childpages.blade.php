@@ -5,7 +5,7 @@
     </div>
     <article class="container lg:mb-8 prose lg:prose-2xl ">
         <p>Conheça nossos candidatos que irão concorrer a uma vaga para deputado estadual na Assembléia Legislativa:</p>
-        <p>Eles são: Carlos Lobato Cláudio Vigilante Diego Veículos Edinoelson Careca Inês Vale Ramos Lucas da Gazeta Maria Cristina Melque Gama Radialista Careca Almeida Rayfran Beirão Regiane Costa (Maju) Rosa Amaral e Simon Dias</p>
+        <p>Eles são: Carlos Lobato, Cláudio Vigilante, Diego Veículos, Edinoelson Careca, Inês Vale Ramos, Lucas da Gazeta, Maria Cristina, Melque Gama, Radialista Careca Almeida, Rayfran Beirão, Regiane Costa (Maju), Rosa Amaral e Simon Dias.</p>
     </article>
     <div class="flex flex-wrap">
     <?php
