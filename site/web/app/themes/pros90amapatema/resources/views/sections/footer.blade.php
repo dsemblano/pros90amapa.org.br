@@ -6,16 +6,17 @@
 
 <footer class="content-info bg-pros90blue mt-12 px-10">
 
-  <div class="text-white fill-white flex flex-col lg:flex-row justify-around container py-7">
-    <section class="socialicons text-center lg:text-left mb-6 lg:my-8">
+  <div class="text-white fill-white flex flex-col lg:flex-row justify-between container py-7">
+    <section class="socialicons lg:text-left mb-6 lg:my-8">
       {{-- @include('partials/snippets.whatsapp') --}}
       @include('partials/snippets.socialicons')
     </section>
     @php(dynamic_sidebar('sidebar-footer'))
   </div>
-  <div class="text-center text-white pb-8">
+  <div class="container text-white pb-8">
     PROS Amapá © <br class="block lg:hidden">Todos os direitos reservados. {{ date('Y') }}
     <p>CNPJ: 19.225.311/0001-87</p>
+    <p>Av. Henrique Galúcio, 1081 Macapá - AP, 68900-115</p>
   </div>
 
 </footer>
