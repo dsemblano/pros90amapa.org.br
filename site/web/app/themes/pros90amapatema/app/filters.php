@@ -42,3 +42,16 @@ function default_target_blank() {
 }
 add_action( 'admin_footer-post-new.php', 'default_target_blank', 10, 0 );
 add_action( 'admin_footer-post.php', 'default_target_blank', 10, 0 );
+
+/**
+ * Filter the excerpt length to 50 words.
+ *
+ * @param int $length Excerpt length.
+ * @return int (Maybe) modified excerpt length.
+ */
+add_filter( 'excerpt_length', function($length) {
+    if ( is_admin() ) {
+        return $length;
+}
+return 20;
+});
