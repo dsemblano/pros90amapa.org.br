@@ -5,11 +5,11 @@
       @if ( has_post_thumbnail() )
         {{ the_post_thumbnail('post-thumbnail', ['class' => 'lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72   w-full object-cover object-center mb-6', 'title' => 'Feature image']); }}
         @else
-        <img class="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72   w-full object-cover object-center mb-6" alt="Imagem destacada páginas" src="@asset('images/default.png')"  alt="{!! $title !!}">
+        <img class="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72 w-full object-cover object-center mb-6" alt="Imagem destacada matéria de notícias" src="@asset('images/default.png')"  alt="{!! $title !!}">
       @endif
       </a>
     </figure>
-    <header class="p-6">
+    <header class="px-6">
         <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">
           <a href="{{ get_permalink() }}">
             {!! $title !!}
@@ -18,7 +18,7 @@
     
       @include('partials.entry-meta')
       </header>
-      <div class="entry-summary p-6">
+      <div class="entry-summary px-6 py-3">
         @php(the_excerpt())
       </div>
   </div>
