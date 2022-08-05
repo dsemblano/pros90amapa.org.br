@@ -215,6 +215,13 @@ section.social.block {
   }
 }
 
+.wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
+  background: no-repeat;
+  color: black;
+  font-size: 1rem;
+  bottom: -1rem;
+}
+
 // Form
 .comment-form textarea,
 .comment-form input:not(.btn),
@@ -506,3 +513,4 @@ ul.wp-block-social-links {
 .single .wp-block-column {
   font-size: 1rem;
 }
+
