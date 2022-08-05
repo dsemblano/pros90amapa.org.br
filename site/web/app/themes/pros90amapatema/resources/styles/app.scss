@@ -218,7 +218,12 @@ section.social.block {
 .wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
   background: none;
   color: #374151;
+  text-align: center;
   bottom: -2rem;
+}
+
+.wp-block-video figcaption {
+  text-align: center;
 }
 
 // Form
