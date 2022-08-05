@@ -19,17 +19,15 @@
   },
   "devDependencies": {
     "@roots/bud": "5.8.7",
+    "@roots/bud-postcss": "^5.8.7",
+    "@roots/bud-sass": "^5.8.7",
     "@roots/bud-tailwindcss": "5.8.7",
     "@roots/sage": "5.8.7",
     "@tailwindcss/typography": "^0.5.2"
   },
   "dependencies": {
-    "@roots/bud-postcss": "5.8.7",
-    "@roots/bud-sass": "5.8.7",
     "flowbite": "^1.4.7",
     "js-brasil": "^2.5.3",
-    "postcss": "^8.4.14",
-    "postcss-scrollbar": "^0.5.1",
     "tailwindcss-debug-screens": "^2.2.1"
   }
 }
