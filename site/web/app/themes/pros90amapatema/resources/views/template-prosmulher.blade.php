@@ -5,10 +5,13 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="noticias w-full">
-    <div class="page-header text-center container my-8 lg:mt-12 lg:mb-8 prose lg:prose-2xl  prose-a:text-blue-800 prose-a:no-underline hover:prose-a:text-blue-500 hover:prose-a:underline">
+<div class="prosmulher w-full">
+    <div class="page-header text-center container prose lg:prose-2xl  prose-a:text-blue-800 prose-a:no-underline hover:prose-a:text-blue-500 hover:prose-a:underline">
         <h1>PROS Mulher</h1>
     </div>
+    <figure class="grid h-screen place-items-center">
+        <img src="@asset('images/logoprosmulhercomcandidatas.jpeg')" alt="Foto candidatas PROS">
+    </figure>
     <div class="flex flex-wrap -m-4">
         <?php $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'category_name' => 'pros-mulher', 'posts_per_page'=>-1)); ?>
         <?php if ( $wpb_all_query->have_posts() ) : ?>
@@ -49,7 +52,7 @@
         </p>
         <?php endif; ?>
     </div>
-    {!! get_the_posts_pagination(array('prev_text' => '« Anterior' , 'next_text' => 'Próximo »' )) !!}    
+      {!! get_the_posts_pagination(array('prev_text' => '« Anterior' , 'next_text' => 'Próximo »' )) !!}    
 </div>
 
 @endsection
