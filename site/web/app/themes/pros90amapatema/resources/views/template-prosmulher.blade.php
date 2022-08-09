@@ -19,9 +19,9 @@
                 <figure class="thumbnail">
                     <a href="{{ get_permalink() }}">
                         @if ( has_post_thumbnail() )
-                        {{ the_post_thumbnail('post-thumbnail', ['class' => 'lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72 w-full object-cover object-center', 'title' => 'Feature image']); }}
+                        {{ the_post_thumbnail('post-thumbnail', ['class' => 'lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72   w-full object-cover object-center mb-6', 'title' => 'Feature image']); }}
                         @else
-                        <img class="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72 w-full object-cover object-center" alt="Imagem destacada matéria PROS Mu"
+                        <img class="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72 w-full object-cover object-center mb-6" alt="Imagem destacada PROS Mulher" src="@asset('images/default.png')"  alt="{!! $title !!}">
                             src="@asset('images/default.png')" alt="<?php the_title(); ?>">
                         @endif
                     </a>
