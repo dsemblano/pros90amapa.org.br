@@ -48,7 +48,8 @@
             <?php _e( 'Sem posts.' ); ?>
         </p>
         <?php endif; ?>
-    </div>    
+    </div>
+    {!! get_the_posts_pagination(array('prev_text' => '« Anterior' , 'next_text' => 'Próximo »' )) !!}    
 </div>
 
 @endsection
