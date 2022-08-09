@@ -9,7 +9,7 @@
     <div class="page-header text-center container my-8 lg:mt-12 lg:mb-8 prose lg:prose-2xl  prose-a:text-blue-800 prose-a:no-underline hover:prose-a:text-blue-500 hover:prose-a:underline">
         <h1>PROS Mulher</h1>
     </div>
-    <div class="flex flex-wrap">
+    <div class="flex flex-wrap -m-4">
         <?php $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'category_name' => 'pros-mulher', 'posts_per_page'=>-1)); ?>
         <?php if ( $wpb_all_query->have_posts() ) : ?>
         <!-- the loop -->
@@ -21,7 +21,7 @@
                         @if ( has_post_thumbnail() )
                         {{ the_post_thumbnail('post-thumbnail', ['class' => 'lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72 w-full object-cover object-center', 'title' => 'Feature image']); }}
                         @else
-                        <img class="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72 w-full object-cover object-center" alt="Imagem destacada matéria de notícias"
+                        <img class="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72 w-full object-cover object-center" alt="Imagem destacada matéria PROS Mu"
                             src="@asset('images/default.png')" alt="<?php the_title(); ?>">
                         @endif
                     </a>
@@ -36,7 +36,7 @@
                     @include('partials.entry-meta')
                 </header>
                 <?php
-                    //echo '<p class="leading-relaxed text-base text-gray-600 mt-2">' . get_the_excerpt() . '</p>'; 
+                    echo '<p class="leading-relaxed text-base text-gray-600 mt-2">' . get_the_excerpt() . '</p>'; 
                 ?>
             </div>
         </article>
