@@ -9,7 +9,7 @@
     <div class="page-header text-center container prose lg:prose-2xl  prose-a:text-blue-800 prose-a:no-underline hover:prose-a:text-blue-500 hover:prose-a:underline">
         <h1>PROS Mulher</h1>
     </div>
-    <figure class="grid h-screen place-items-center">
+    <figure class="grid mt-8 place-items-center">
         <img src="@asset('images/logoprosmulhercomcandidatas.jpeg')" alt="Foto candidatas PROS">
     </figure>
     <div class="flex flex-wrap -m-4">
