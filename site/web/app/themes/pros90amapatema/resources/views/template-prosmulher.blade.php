@@ -8,15 +8,15 @@
 <div class="prosmulher w-full">
     <div class="page-header text-center container prose lg:prose-2xl  prose-a:text-blue-800 prose-a:no-underline hover:prose-a:text-blue-500 hover:prose-a:underline">
         <h1>PROS Mulher Amapá</h1>
+        <figure class="grid my-8 place-items-center">
+            <img src="@asset('images/coverprosmulher.jpg')" alt="Foto candidatas PROS">
+        </figure>
         <p>
             Estimulando as amapaenses a participar da política como peças fundamentais para compor uma sociedade mais justa e igualitária!
         </p>
     </div>
-    <figure class="grid my-8 place-items-center">
-        <img src="@asset('images/logoprosmulhercomcandidatas.jpeg')" alt="Foto candidatas PROS">
-    </figure>
     <div class="flex flex-wrap -m-4">
-        <?php $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'category_name' => 'pros-mulher', 'posts_per_page'=>-1)); ?>
+        <?php $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'category_name' => 'pros-mulher', 'posts_per_page'=>2)); ?>
         <?php if ( $wpb_all_query->have_posts() ) : ?>
         <!-- the loop -->
         <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
@@ -48,7 +48,7 @@
         </article>
         <?php endwhile; ?>
         <!-- end of the loop -->
-        <?php wp_reset_postdata(); ?>
+        
         <?php else : ?>
         <p>
             <?php _e( 'Sem posts.' ); ?>
