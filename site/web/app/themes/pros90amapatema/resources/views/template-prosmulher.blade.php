@@ -16,7 +16,7 @@
         </p>
     </div>
     <div class="flex flex-wrap -m-4">
-        <?php $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'category_name' => 'pros-mulher', 'posts_per_page'=>2)); ?>
+        <?php $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'category_name' => 'pros-mulher', 'posts_per_page'=>-1)); ?>
         <?php if ( $wpb_all_query->have_posts() ) : ?>
         <!-- the loop -->
         <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
