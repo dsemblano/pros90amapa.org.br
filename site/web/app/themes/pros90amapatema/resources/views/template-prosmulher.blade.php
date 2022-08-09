@@ -7,7 +7,7 @@
 @section('content')
 <div class="prosmulher w-full">
     <div class="page-header text-center container prose lg:prose-2xl  prose-a:text-blue-800 prose-a:no-underline hover:prose-a:text-blue-500 hover:prose-a:underline">
-        <h1>PROS Mulher</h1>
+        <h1>PROS Mulher Amapá</h1>
     </div>
     <figure class="grid my-8 place-items-center">
         <img src="@asset('images/logoprosmulhercomcandidatas.jpeg')" alt="Foto candidatas PROS">
