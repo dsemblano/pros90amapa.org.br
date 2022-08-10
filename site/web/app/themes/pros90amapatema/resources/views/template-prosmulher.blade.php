@@ -7,7 +7,7 @@
 @section('content')
 <div class="prosmulher w-full">
     <?php echo do_shortcode( '[flexy_breadcrumb]'); ?> 
-    <div class="page-header text-center container prose lg:prose-2xl mb-10 prose-a:text-blue-800 prose-a:no-underline hover:prose-a:text-blue-500 hover:prose-a:underline">
+    <div class="page-header text-center container mt-8 lg:mt-0 prose lg:prose-2xl mb-10 prose-a:text-blue-800 prose-a:no-underline hover:prose-a:text-blue-500 hover:prose-a:underline">
         <h1>PROS Mulher Amapá</h1>
         <figure class="grid my-8 place-items-center">
             <img src="@asset('images/coverprosmulher.jpg')" alt="Foto candidatas PROS">
