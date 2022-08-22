@@ -219,7 +219,8 @@ section.social.block {
   background: none;
   color: #374151;
   text-align: center;
-  bottom: -2rem;
+  position: relative;
+  bottom: 0;
 }
 
 .wp-block-video figcaption {

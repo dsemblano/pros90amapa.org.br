@@ -4,7 +4,7 @@
 
 @include('sections.header')
 
-  <main id="main" class="main container min-h-screen px-4 xl:px-0 mt-32">
+  <main id="main" class="main min-h-screen mt-32 {{ ! is_front_page() ? "container px-8 lg:px-16 " : '' }}">
     @yield('content')
   </main>
 

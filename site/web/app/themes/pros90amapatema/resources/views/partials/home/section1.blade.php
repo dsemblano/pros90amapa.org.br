@@ -1,4 +1,4 @@
-<section class="flex flex-col lg:flex-row lg:mt-40 justify-between items-start bg-white">
+<section id="section1" class="container px-8 lg:px-16 flex flex-col lg:flex-row lg:mt-40 justify-between items-start bg-white relative">
     <div class="flex flex-col w-full lg:w-5/6 justify-center text-center lg:text-left animated animatedFadeInUp fadeInUp">
       <h1 class="mb-4 uppercase text-7xl lg:text-9xl font-bold text-pros90lightblue">PROS Amapá</h1>
       <img class="block lg:hidden rounded-tl-extraLarge rounded-br-extraLarge" width="600" height="718" alt="Logo PROS na home" src="@asset('images/logopros.png')" />
