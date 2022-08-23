@@ -6,17 +6,22 @@
 
 <footer class="content-info bg-pros90blue mt-12 px-10">
   <div class="container flex flex-col">
-    <div class="text-white flex flex-col lg:flex-row justify-around fill-white mb-6 my-8">
+    <div class="text-white flex flex-col lg:flex-row justify-around fill-white mt-8">
       <section class="socialicons mb-4">
         {{-- @include('partials/snippets.whatsapp') --}}
         @include('partials/snippets.socialicons')
       </section>
       @php(dynamic_sidebar('sidebar-footer'))
     </div>
-    <div class="text-white text-center mb-6 lg:my-8">
-      PROS Amapá © <br class="block lg:hidden">Todos os direitos reservados. {{ date('Y') }}
-      <p>CNPJ: 19.225.311/0001-87</p>
-      <p>Av. Henrique Galúcio, 1081 Macapá - AP, 68900-115</p>
+    <div class="flex flex-col text-white text-center mb-6">
+      <div id="eleicoesfaltam">
+        @include('partials/snippets.eleicoesfaltam')
+      </div>
+      <div class="flex flex-col">
+        PROS Amapá © <br class="block lg:hidden">Todos os direitos reservados. {{ date('Y') }}
+        <p>CNPJ: 19.225.311/0001-87</p>
+        <p>Av. Henrique Galúcio, 1081 Macapá - AP, 68900-115</p>
+      </div>
     </div>
   </div>
 
