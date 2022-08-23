@@ -14,7 +14,7 @@
       @php(dynamic_sidebar('sidebar-footer'))
     </div>
     <div class="flex flex-col text-white text-center mb-6">
-      <div id="eleicoesfaltam">
+      <div id="eleicoesfaltam" class="mt-6">
         @include('partials/snippets.eleicoesfaltam')
       </div>
       <hr class="my-4 w-2/4 relative left-1/4">
