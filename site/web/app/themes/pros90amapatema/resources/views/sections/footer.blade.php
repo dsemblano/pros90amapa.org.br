@@ -17,6 +17,7 @@
       <div id="eleicoesfaltam">
         @include('partials/snippets.eleicoesfaltam')
       </div>
+      <hr class="my-4 w-2/4 relative left-1/4">
       <div class="flex flex-col">
         PROS Amapá © <br class="block lg:hidden">Todos os direitos reservados. {{ date('Y') }}
         <p>CNPJ: 19.225.311/0001-87</p>
