@@ -3,11 +3,22 @@
 @import "tailwindcss/utilities";
 @import "animate.css/animate.css";
 
+@font-face {
+  font-family: 'source_sans_probold';
+  src: url('~@fonts/sourcesanspro-bold-webfont.woff2') format('woff2'),
+       url('~@fonts/sourcesanspro-bold-webfont.woff') format('woff'),
+       url('~@fonts/sourcesanspro-bold-webfont.ttf') format('truetype');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
 // Variables must reflect tailwind.config.js
 $pros90orange: #F6913A;
 $pros90blue: #001D3D;
 $pros90lightblue: #263C76;
 $pros90gray: #F4F4F4;
+$bluedays: #2A5E80;
 
 // Mixins
 %imgeffect {
@@ -523,4 +534,37 @@ ul.wp-block-social-links {
 // Footer
 .countdown_infolink {
   display: none !important;
+}
+
+#contador {
+  font-family: "source_sans_probold", sans-serif;
+
+  #faltamdias {
+    padding: 2rem 2rem 2rem 2rem;
+    border: 20px solid $bluedays;
+    border-radius: 60px;
+  }
+
+  .countdown {
+    margin: 0 !important;
+    font-family: "source_sans_probold", sans-serif;
+    font-size: 7rem;
+    width: 20rem !important;
+
+    .countdown_section {
+      br {
+        display: none;
+      }
+      .countdown_amount {
+        border-color: blue;
+        border-radius: 75px !important;
+        border: 1.5rem solid #2A5E80;
+        padding-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 8rem;
+      }
+    }
+  }
 }
