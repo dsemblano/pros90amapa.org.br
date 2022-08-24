@@ -45,5 +45,5 @@ module.exports = async (app) => {
     /**
      * Relative path to the public directory.
      */
-     .setPublicPath('/app/themes/sage/public/');
+     .setPublicPath('/app/themes/pros90amapatema/public/');
 };

@@ -1,4 +1,4 @@
-<section id="section1" class="container px-8 lg:px-16 flex flex-col lg:flex-row lg:mt-40 justify-between items-start bg-white relative">
+<section id="section1" class="container px-8 lg:px-16 flex flex-col lg:flex-row justify-between items-start bg-white relative">
     <div class="flex flex-col w-full lg:w-5/6 justify-center text-center lg:text-left animate__animated animate__fadeInLeftBig">
       <h1 class="mb-4 uppercase text-7xl lg:text-9xl font-bold text-pros90lightblue">PROS Amapá</h1>
       <div class="my-4">
