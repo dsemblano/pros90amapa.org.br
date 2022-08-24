@@ -10,7 +10,7 @@
       </a>
     </figure>
     <header class="px-6">
-        <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">
+        <h2 class="text-2xl text-pros90lightblue font-medium title-font mb-2">
           <a href="{{ get_permalink() }}">
             {!! $title !!}
           </a>
