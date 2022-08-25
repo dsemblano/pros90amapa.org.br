@@ -79,6 +79,10 @@ body {
 
         a {
           @apply inline-block py-2 px-4 text-black font-bold no-underline;
+
+          &:hover {
+            @apply text-pros90lighterblue underline;
+          }
         }
       }
     }
