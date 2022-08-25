@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <?php wp_head(); ?>
   <?php echo \Roots\view('layouts/head/favicon')->render(); ?>
+  <?php echo \Roots\view('layouts/head/preload')->render(); ?>
 </head>
 
 <body <?php (WP_ENV !== 'production') ? body_class('debug-screens') : body_class(''); ?>>
