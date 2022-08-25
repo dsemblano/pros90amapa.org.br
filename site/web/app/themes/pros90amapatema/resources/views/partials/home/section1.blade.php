@@ -20,7 +20,7 @@
             @include('partials/snippets.socialicons')
             @include('partials/snippets.fblikeshare')
           </div>
-            @include('partials/snippets.facebook')
+            {{-- @include('partials/snippets.facebook') --}}
         </div>
       </article>
     </div>
