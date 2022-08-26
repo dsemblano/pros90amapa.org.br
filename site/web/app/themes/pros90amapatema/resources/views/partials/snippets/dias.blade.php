@@ -1,6 +1,6 @@
 <div id="contador" class="flex flex-col items-center text-pros90blue uppercase text-6xl float-left">
     <h2 class="text-pros90blue uppercase text-4xl">Faltam</h2>
-    <div id="faltamdias" class="text-pros90orange text-9xl"></div>    
+    <div id="faltamdias" class="text-pros90darkorange text-9xl"></div>    
     {{-- {!! do_shortcode('[countdown date="02 October 2022" hour="07"  color="#F78F22" format="d"]') !!} --}}
     <h2 class="text-pros90blue uppercase text-3xl text-center">dias paras as eleições 2022</h2>
 </div>

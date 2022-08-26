@@ -577,3 +577,11 @@ ul.wp-block-social-links {
 .readmore {
   @apply text-bluedays font-bold text-lg;
 }
+
+#countdown_container {
+  margin-top: 6rem;
+
+  #contador {
+    margin: 5rem 0 5rem 0;
+  }
+}
