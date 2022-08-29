@@ -2,7 +2,7 @@
     <h2 class="text-pros90blue uppercase text-4xl">Faltam</h2>
     <div id="faltamdias" class="text-pros90darkorange text-9xl"></div>    
     {{-- {!! do_shortcode('[countdown date="02 October 2022" hour="07"  color="#F78F22" format="d"]') !!} --}}
-    <h2 class="text-pros90blue uppercase text-3xl text-center">dias paras as eleições 2022</h2>
+    <h2 class="text-pros90blue uppercase text-3xl text-center mb-8">dias paras as eleições 2022</h2>
 </div>
 
 <script>
