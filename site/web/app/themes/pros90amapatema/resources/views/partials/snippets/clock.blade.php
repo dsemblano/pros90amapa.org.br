@@ -32,7 +32,7 @@
 
 <style>
   section#clock {
-    margin-top: 8rem;
+    margin-top: 3rem;
     }
     .clock {
         height: 20vh;
