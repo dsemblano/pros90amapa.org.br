@@ -1,7 +1,7 @@
 {{--
   Template Name: Dias Template
 --}}
-<div id="countdown_container" class="container h-auto flex flex-row items-center mt-6 px-4">
+<div id="countdown_container" class="container h-auto flex flex-row items-center px-4">
     @include('partials/snippets.dias')
     {{-- <a href="{{ home_url('/') }}">
         <img alt="Logo PROS na home" width="300" src="@asset('images/logodias.jpg')" />
