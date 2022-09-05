@@ -1,7 +1,7 @@
 {{--
   Template Name: Dias Template
 --}}
-<div id="countdown_container" class="container w-full h-auto flex flex-row items-center mt-6">
+<div id="countdown_container" class="container w-3/5 h-auto flex flex-row items-center mt-6">
     @include('partials/snippets.dias')
     {{-- <a href="{{ home_url('/') }}">
         <img alt="Logo PROS na home" width="300" src="@asset('images/logodias.jpg')" />
@@ -11,4 +11,6 @@
     </div>
     @include('partials/snippets.clock')
 </div>
-{!! do_shortcode('[recent_post_slider autoplay="true"]') !!}
+<div class="container">
+    {!! do_shortcode('[recent_post_slider design="design-4" limit="4" autoplay="true" speed="800"]') !!}
+</div>
