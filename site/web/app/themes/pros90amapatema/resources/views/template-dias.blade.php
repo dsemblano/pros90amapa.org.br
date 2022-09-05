@@ -12,5 +12,5 @@
     @include('partials/snippets.clock')
 </div>
 <div class="container">
-    {!! do_shortcode('[recent_post_slider design="design-4" limit="4" autoplay="true" speed="800"]') !!}
+    {!! do_shortcode('[recent_post_slider design="design-4" autoplay="true" speed="800"]') !!}
 </div>
