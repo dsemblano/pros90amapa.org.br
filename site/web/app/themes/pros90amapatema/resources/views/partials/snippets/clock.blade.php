@@ -38,9 +38,9 @@
         height: 20vh;
         color: black;
         /* font-size: 22vh; */
-        font-size: 10vh;
+        font-size: 6vh;
         font-family: sans-serif;
-        line-height: 12.4vh;
+        line-height: 7.4vh;
         display: flex;
         position: relative;
         /*background: green;*/
@@ -67,7 +67,7 @@
     }
 
     .tick {
-        line-height: 12.4vh;
+        line-height: 7.4vh;
     }
 
     .tick-hidden {
