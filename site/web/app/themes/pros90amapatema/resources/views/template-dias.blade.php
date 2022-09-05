@@ -15,7 +15,7 @@
         {!! do_shortcode('[recent_post_slider autoplay="true" autoplay_interval="10000" design="design-4" speed="1800"]') !!}
         @include('partials/snippets.clock')
     </div>
-    <div class="imgpros flex flex-row justify-center">
+    <div class="imgpros container">
         <img class="w-28" src="https://scontent.fmcp3-1.fna.fbcdn.net/v/t39.30808-6/286556821_115448234517312_2982349885631481630_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGy46dUcnEMChjhNt_Tg11AFXBVs0iBcV8VcFWzSIFxX0DI1MHAqsTf4rG1fe0ehVFFhPxVLNAkOMf-4LmJPhVs&_nc_ohc=BbIVfzy2nMMAX8D9VSe&_nc_ht=scontent.fmcp3-1.fna&oh=00_AT91F8a9gDR1p5O77HvUdUHuZKLmkxRL80LJdJ9UX9K8Mg&oe=631B54CC" />
     </div>
 </section>
