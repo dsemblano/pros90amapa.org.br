@@ -1,5 +1,5 @@
 <section id="clock" class="flex flex-col items-center">
-  <p class="uppercase text-pros90blue text-2xl font-bold">Hora certa</p>
+  <p class="uppercase text-pros90blue text-base font-bold">Hora certa</p>
   <div class="clock text-pros90blue uppercase">
       <div class="hours text-pros90blue">
           <div class="first">
@@ -38,7 +38,7 @@
         height: 20vh;
         color: black;
         /* font-size: 22vh; */
-        font-size: 6vh;
+        font-size: 4vh;
         font-family: sans-serif;
         line-height: 7.4vh;
         display: flex;
