@@ -11,4 +11,4 @@
     </div>
     @include('partials/snippets.clock')
 </div>
-{!! do_shortcode('[recent_post_slider autoplay="true" autoplay_interval="300"]') !!}
+{!! do_shortcode('[recent_post_slider autoplay="true"]') !!}
