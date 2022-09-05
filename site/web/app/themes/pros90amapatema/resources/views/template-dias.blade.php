@@ -12,7 +12,7 @@
         </div>
     </div>
     <div id="recent_clock" class="container">
-        {!! do_shortcode('[recent_post_slider autoplay="true" autoplay_interval="10000" design="design-2" dots="false" speed="1800" show_read_more="false" show_author="false" content_words_limit="100"]') !!}
+        {!! do_shortcode('[recent_post_slider autoplay="true" autoplay_interval="10000" design="design-2" dots="false" speed="1800" show_read_more="false" show_author="false" content_words_limit="60"]') !!}
         @include('partials/snippets.clock')
     </div>
     <div class="imgpros container">
