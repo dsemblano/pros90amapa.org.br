@@ -13,7 +13,7 @@
         </div>
     </div>
     <div id="recent_clock" class="container">
-        {!! do_shortcode('[recent_post_slider autoplay="true" autoplay_interval="10000" design="design-1" dots="false" speed="1800" show_read_more="false" show_author="false" content_words_limit="45"]') !!}
+        {!! do_shortcode('[recent_post_slider autoplay="true" autoplay_interval="10000" arrows="false" design="design-1" dots="false" speed="1800" show_read_more="false" show_author="false" content_words_limit="45"]') !!}
     </div>
         <img class="w-28 imgpros container" src="https://pbs.twimg.com/profile_images/1534230251697541123/heJ6RE6n_400x400.jpg" />
 </section>
