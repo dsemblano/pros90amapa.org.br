@@ -585,3 +585,8 @@ ul.wp-block-social-links {
     margin: 0;
   }
 }
+
+// partido page
+figure.wp-block-image.size-full.is-style-rounded img {
+  @apply shadow-lg;
+}
