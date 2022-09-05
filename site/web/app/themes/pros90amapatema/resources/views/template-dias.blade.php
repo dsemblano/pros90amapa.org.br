@@ -6,7 +6,7 @@
     {{-- <a href="{{ home_url('/') }}">
         <img alt="Logo PROS na home" width="300" src="@asset('images/logodias.jpg')" />
     </a> --}}
-    <div class="text-3xl w-full font-bold relative mb-6">
+    <div class="text-3xl  w-2/5 font-bold relative mb-6">
         {!! do_shortcode('[countdown date="02 October 2022" width="600" color="#F45F2D" bgcolor="#FFF" format="dHMS" hour="07"]') !!}
     </div>
 </div>
