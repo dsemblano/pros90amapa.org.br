@@ -10,7 +10,7 @@
         <div class="text-3xl  w-2/5 font-bold relative mb-6">
             {!! do_shortcode('[countdown date="02 October 2022" width="600" color="#F45F2D" bgcolor="#FFF" format="dHMS" hour="07"]') !!}
         </div>
-        <img class="w-28" alt="Logo do partido PROS Amapá" src="@asset('images/logowhite.jpg')" />
+        <img class="w-28" src="@asset('images/logowhite.jpg')" />
     </div>
     <div id="recent_clock" class="container">
         {!! do_shortcode('[recent_post_slider design="design-4" autoplay="true" speed="800"]') !!}
