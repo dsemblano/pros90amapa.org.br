@@ -23,13 +23,13 @@
         <!-- the loop -->
         <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
         <article @php(post_class('article-posts w-full xl:w-1/3 md:w-1/2 mt-4 pr-0 xl:pr-8 xl:pb-8'))>
-            <div class=" box bg-white">
+            <div class=" box bg-white h-full">
                 <figure class="thumbnail">
                     <a href="{{ get_permalink() }}">
                         @if ( has_post_thumbnail() )
                         {{ the_post_thumbnail('post-thumbnail', ['class' => 'h-full  w-full object-cover object-center mb-6', 'title' => 'Feature image']); }}
                         @else
-                        <img class="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72 w-full object-cover object-center mb-6" alt="Imagem destacada PROS Mulher" src="@asset('images/default.png')"  alt="{!! $title !!}">
+                        <img class="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72 w-full object-cover object-center mb-6" alt="Imagem destacada PROS Mulher" src="@asset('images/default.png')"  alt="<?php the_title(); ?>">
                             src="@asset('images/default.png')" alt="<?php the_title(); ?>">
                         @endif
                     </a>

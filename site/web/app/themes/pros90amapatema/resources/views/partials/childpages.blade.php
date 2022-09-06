@@ -22,7 +22,7 @@
 
     @foreach ($portfolio_children as $children)
     <article id="<?= $children->post_name ?>" @php(post_class('article-posts w-full xl:w-1/3 md:w-1/2 mt-4 pr-0 xl:pr-8 xl:pb-8'))>
-        <div class=" box bg-white">
+        <div class="h-full box bg-white">
             <figure class="thumbnail">
                 <a href="<?= $children->guid ?>">
                     <?= get_the_post_thumbnail( $children->ID) ?>

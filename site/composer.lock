@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "00077c90c4b4f4bb8f6e6db4df3eed84",
+    "content-hash": "7ef719b7178a4a751978161e017a8ecf",
     "packages": [
         {
             "name": "brick/math",
@@ -4937,24 +4937,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/flexy-breadcrumb/"
-        },
-        {
-            "name": "wpackagist-plugin/foogallery",
-            "version": "2.2.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/foogallery/",
-                "reference": "tags/2.2.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/foogallery.2.2.7.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/foogallery/"
         },
         {
             "name": "wpackagist-plugin/humanstxt",
