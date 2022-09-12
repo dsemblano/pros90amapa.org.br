@@ -5,7 +5,7 @@
     </div>
     <article class="container lg:mb-8 prose lg:prose-2xl ">
         <p>Trabalhamos para apresentar as famílias amapaenses líderes comprometidos que visam trabalhar pelo desenvolvimento e prosperidade do Amapá.</p>
-        <p>Conheça nossos candidatos que estão concorrendo a uma vaga para Deputado Estadual na Assembleia Legislativa do Estado do Amapá: Carlos Lobato, Cláudio Vigilante, Diego Veículos, Edinoelson Careca, Inês Vale Ramos, Lucas da Gazeta, Maria Cristina, Melque Gama, Radialista Careca Almeida, Rayfran Beirão, Regiane Costa (Maju), Rosa Amaral e Simon Dias.</p>
+        <p>Conheça nossos candidatos que estão concorrendo para Deputado Estadual na Assembleia Legislativa do Estado do Amapá: Carlos Lobato, Cláudio Vigilante, Diego Veículos, Edinoelson Careca, Inês Vale Ramos, Lucas da Gazeta, Maria Cristina, Melque Gama, Radialista Careca Almeida, Rayfran Beirão, Regiane Costa (Maju), Rosa Amaral e Simon Dias.</p>
     </article>
     <div class="flex flex-wrap">
     <?php
