@@ -16,6 +16,9 @@ module.exports = {
       },
       borderRadius: {
         extraLarge: '12rem'
+      },
+      fontFamily: {
+        probold: ["source_sans_probold", "sans-serif"],
       }
     },
   },
