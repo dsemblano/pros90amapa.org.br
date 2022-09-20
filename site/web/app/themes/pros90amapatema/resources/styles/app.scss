@@ -614,3 +614,13 @@ h2.wppsac-post-title {
 .wppsac-post-slider.design-1 .wppsac-post-content-left {
   background: rgba(0, 0, 0, 0.7) !important;
 }
+
+.wppsac-post-slider h2.wppsac-post-title, 
+.wppsac-post-carousel h2.wppsac-post-title {
+  margin-bottom: 1rem !important;
+}
+
+.wppsac-post-slider h2.wppsac-post-title a, 
+.wppsac-post-carousel h2.wppsac-post-title a {
+  font-size: 3rem;
+}
